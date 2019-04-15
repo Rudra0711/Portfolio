@@ -1,0 +1,11 @@
+body{
+  background-color: dodgerblue;
+}
+#notfound{
+  color:white;
+  font-family: cursive;
+  font-size: 280%;
+  font-weight: bold;
+  margin-left: 60vh;
+  margin-top: 16vh;
+}

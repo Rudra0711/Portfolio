@@ -1,0 +1,42 @@
+
+.whole{
+  background-color: white;
+  width:200vh;
+  height:30vh;
+  margin-top: -15vh;
+  border-bottom: 0.3vh solid black;
+  border-radius: 35%;
+}
+#firstH{
+  margin-left: 52vh;
+  margin-top: -24vh;
+}
+#secondH{
+  padding-top:5.8vh;
+  margin-left:70vh;
+}
+.aboutHeader{
+  position:relative;
+  color:#ffff33;
+  font-family: cursive;
+  font-size: 480%;
+  font-weight: bold;
+}
+
+#desc{
+  margin-top: 16vh;
+  width: 140vh;
+  margin-left: 28vh;
+  color:white;
+  font-size: 150%;
+}
+
+.picabt{
+  position:relative;
+  border-radius:50%;
+  width:14%;
+  height:auto;
+  margin-left:14vh;
+  margin-top:18.2vh;
+  margin-bottom: 0vh;
+}

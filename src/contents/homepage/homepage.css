@@ -1,0 +1,46 @@
+#name{
+  color:white;
+  font-family: cursive;
+  font-size: 280%;
+  font-weight: bold;
+  margin-left: 60vh;
+  margin-top: 12vh;
+}
+.pic{
+  border-radius:50%;
+  margin-left:70vh;
+  margin-top:-17vh;
+  margin-bottom:10vh;
+  width:25%;
+  height:auto;
+}
+#knowmore{
+  margin-top: 18vh;
+  width: 60vh;
+  margin-left: 110vh;
+  color:white;
+}
+
+.active{
+  color:white ;
+  font-weight: bold;
+  text-decoration: underline;
+
+}
+.active:hover{
+  color:yellow;
+}
+#first{
+
+  margin-top:15vh;
+  margin-left: 25vh;
+
+}
+h2{
+  margin-top:12vh;
+}
+#second{
+  margin-top: -29vh;
+  margin-left: 155vh;
+
+}

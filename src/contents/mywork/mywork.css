@@ -1,0 +1,31 @@
+body{
+  background-color: #262626;
+}
+#workHeader{
+  color:white;
+  font-size: 275%;
+  font-weight: bold;
+  font-family: cursive;
+  margin-left: 82vh;
+  margin-top: 2vh;
+}
+.work{
+  background-color: #ccffff;
+  border-radius: 25%;
+  width:45vh;
+  height:55vh;
+  float: left;
+  margin: 4vh;
+}
+.topic{
+  font-size: 150%;
+  padding-left: 7vh;
+}
+#links{
+  text-decoration: none;
+  color:red;
+}
+#links:hover{
+  text-decoration: underline;
+  color:black;
+}
