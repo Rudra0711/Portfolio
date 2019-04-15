@@ -1,5 +1,8 @@
+body{
+  background-color: #ccffcc;
+}
 #name{
-  color:white;
+  color:black;
   font-family: cursive;
   font-size: 280%;
   font-weight: bold;
@@ -18,17 +21,17 @@
   margin-top: 18vh;
   width: 60vh;
   margin-left: 110vh;
-  color:white;
+  color:black;
 }
 
 .active{
-  color:white ;
+  color:black ;
   font-weight: bold;
   text-decoration: underline;
 
 }
 .active:hover{
-  color:yellow;
+  color:red;
 }
 #first{
 

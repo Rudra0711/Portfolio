@@ -14,8 +14,7 @@ class AboutMe extends Component{
           }
 
         </div>
-        <h3 id="desc">I'm a young developer who knows Java, python, html,css, javascript,node js, react ,angular.
-        I love for cricket and music and I am highly dedicated towards my work.<br/><br/>
+        <h3 id="desc"><br/>
         This is just a trial part and the real info is yet to be fulfilled.</h3>
       </div>
     );

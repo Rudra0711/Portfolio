@@ -26,9 +26,10 @@ class Projects extends Component{
   console.log(lang);
   var LANG=lang[1].toUpperCase().concat(proj_name.slice(proj_name.lastIndexOf('-')+2,));
     return(
-      <div >
+      <div id="body2">
         <h1 id="projHeading">{str}</h1>
         <h2 id="lang">-{LANG}</h2>
+        <h1 id="info">Info will be added soon!!</h1>
       </div>
     );
   }

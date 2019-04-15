@@ -1,4 +1,6 @@
-
+body{
+  background-color: #ccffcc;
+}
 .whole{
   background-color: white;
   width:200vh;
@@ -27,7 +29,7 @@
   margin-top: 16vh;
   width: 140vh;
   margin-left: 28vh;
-  color:white;
+  color:black;
   font-size: 150%;
 }
 

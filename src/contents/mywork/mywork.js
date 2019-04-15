@@ -32,7 +32,7 @@ class MyWork extends Component{
    // ));
     return (
 
-      <div>
+      <div id="body1">
        <h1 id="workHeader">As a...</h1>
         {DATA}
        </div>

@@ -1,8 +1,8 @@
 body{
-  background-color: dodgerblue;
+  background-color: #ccffcc;
 }
 #notfound{
-  color:white;
+  color:black;
   font-family: cursive;
   font-size: 280%;
   font-weight: bold;
