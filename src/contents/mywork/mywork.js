@@ -1,14 +1,11 @@
 import React,{Component} from 'react';
 import './mywork.css';
-import {BrowserRouter,NavLink,Switch,Route,withRouter} from 'react-router-dom';
-import HomePage from '../homepage/homepage';
-import AboutMe from '../aboutme/aboutme';
-import Project from '../projects/project';
+import {NavLink,Route} from 'react-router-dom';
 import Data from '../data';
 
 class MyWork extends Component{
 
-  
+
 
   render(){
 
@@ -26,20 +23,18 @@ class MyWork extends Component{
      </div>
 
    ));
-   var ROUTES=data.map((info) => (
-     <div key={data.id}>
-     {info.links.map((linkInfo) => (
-       <Route key={linkInfo.linkTo} path={"/$var".replace('$var',linkInfo.linkTo)} exact component={AboutMe}/>
-     ))}
-     </div>
-   ));
+   // var ROUTES=data.map((info) => (
+   //   <div key={data.id}>
+   //   {info.links.map((linkInfo) => (
+   //     <Route key={linkInfo.linkTo} path={"/$var".replace('$var',linkInfo.linkTo)} exact component={AboutMe}/>
+   //   ))}
+   //   </div>
+   // ));
     return (
 
       <div>
        <h1 id="workHeader">As a...</h1>
         {DATA}
-
-
        </div>
     );
   }

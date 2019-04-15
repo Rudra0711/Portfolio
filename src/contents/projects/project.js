@@ -1,23 +1,9 @@
 import React,{Component} from 'react';
-import Data from '../data';
-import {BrowserRouter,NavLink,Route,Switch} from 'react-router-dom';
 import './project.css';
 
 class Projects extends Component{
   render(){
-  //   let names=Data;
-  //   let currName=[];
-  //   let currentName=names.map((name) =>
-  //   <div>
-  //   {name.links.map((subName) =>
-  //     currName.push(subName)
-  //   )}
-  //   </div>
-  // );
-  // //console.log(currName),
-  // let name=[];
-  // //let NName=currName.title.find(window.location.pathname.replace('/',''));
-  // console.log(name);
+
   let i=0,str="";
 
   var proj_name=window.location.pathname.replace('/','');

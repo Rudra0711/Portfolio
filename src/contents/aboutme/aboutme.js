@@ -8,8 +8,10 @@ class AboutMe extends Component{
       <div >
         <div class="whole">
         <img class="picabt" src={img} alt="My pic"/>
-            <h1 className="aboutHeader" id="firstH">  </h1>
-            <h1 className="aboutHeader" id="secondH"></h1>
+            {
+              // <h1 className="aboutHeader" id="firstH">  </h1>
+            // <h1 className="aboutHeader" id="secondH"></h1>
+          }
 
         </div>
         <h3 id="desc">I'm a young developer who knows Java, python, html,css, javascript,node js, react ,angular.

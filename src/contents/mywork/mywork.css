@@ -11,15 +11,64 @@ body{
 }
 .work{
   background-color: #ccffff;
-  border-radius: 25%;
-  width:45vh;
-  height:55vh;
+
+  width:40vh;
+  height:50vh;
   float: left;
   margin: 4vh;
 }
+#Java{
+  border-radius: 25%;
+  padding: 2vh;
+  width:25vh;
+  margin-top: -5vh;
+  margin-right: 14vh;
+  margin-left: 22vh;
+}
+#Android{
+  border-radius: 50%;
+  padding: 7vh;
+  width:35vh;
+  margin-top: 7vh;
+  margin-right: 13vh;
+}
+#Web{
+  border-radius: 6%;
+  padding: 0vh;
+  width:25vh;
+  margin-left: 4vh;
+  margin-top: -2vh;
+}
+#Nodejs{
+  border-radius: 25%;
+  padding: 2vh;
+  width:45vh;
+  margin-top: 58vh;
+  margin-left: -160vh;
+}
+#React{
+  border-radius: 50%;
+  padding: 6vh;
+  width:50vh;
+  margin-top: 2vh;
+}
+#Angular{
+  border-radius: 40%;
+  padding: 2vh;
+  width:55vh;
+  height:25vh;
+  margin-top: -20vh;
+  margin-left: 1vh;
+}
+#Python{
+  border-radius: 40%;
+  padding: 2vh;
+  width:25vh;
+  margin-left:  18vh;
+}
 .topic{
   font-size: 150%;
-  padding-left: 7vh;
+  padding-left: 4vh;
 }
 #links{
   text-decoration: none;

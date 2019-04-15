@@ -12,9 +12,7 @@ import {BrowserRouter,Route,Switch} from 'react-router-dom';
 class App extends Component {
 
   render() {
-    let i=0;
     let data=Data;
-    var route=[];
     var ROUTES=data.map((info) => (
       <div key={data.id}>
       {info.links.map((linkInfo) => (
