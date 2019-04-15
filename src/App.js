@@ -43,15 +43,3 @@ class App extends Component {
 
 
 export default Radium(App);
-// ROUTES.map((info,index) => (
-//   <div key={data.id}>
-//
-//     <Route  path={info[index]} exact component={Project}/>
-//
-//   </div>
-// ))
-
-// <Route path={"/$var".replace('$var','project')} exact component={AboutMe}/>
-// <Route path="/notesapp" exact component={Project}/>
-//
-// <Route style={{textAlign:'center'}} render={() => <h1 id="notfound">Oops..!No page found</h1> } />
