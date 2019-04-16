@@ -5,6 +5,7 @@
   margin-top: -1vh;
   padding-top: 1vh;
 }
+
 #workHeader{
   color:white;
   font-size: 275%;
@@ -15,11 +16,14 @@
 }
 .work{
   background-color: #ccffff;
-
   width:40vh;
   height:50vh;
   float: left;
   margin: 4vh;
+}
+@keyframes java {
+    from {height: 0vh;}
+    to  {height: 50vh;}
 }
 #Java{
   border-radius: 25%;
@@ -28,6 +32,12 @@
   margin-top: -5vh;
   margin-right: 14vh;
   margin-left: 22vh;
+  animation-name: java;
+  animation-duration: 2s;
+}
+@keyframes android {
+  from {height: 0vh;}
+  to  {height: 50vh;}
 }
 #Android{
   border-radius: 50%;
@@ -35,6 +45,12 @@
   width:35vh;
   margin-top: 7vh;
   margin-right: 13vh;
+  animation-name: android;
+  animation-duration: 2s;
+}
+@keyframes web {
+  from {height: 0vh;}
+  to  {height: 50vh;}
 }
 #Web{
   border-radius: 6%;
@@ -42,6 +58,12 @@
   width:25vh;
   margin-left: 4vh;
   margin-top: -2vh;
+  animation-name: web;
+  animation-duration: 2s;
+}
+@keyframes nodejs {
+  from {height: 0vh;}
+  to  {height: 50vh;}
 }
 #Nodejs{
   border-radius: 25%;
@@ -49,12 +71,24 @@
   width:45vh;
   margin-top: 58vh;
   margin-left: -160vh;
+  animation-name: nodejs;
+  animation-duration: 2s;
+}
+@keyframes react {
+  from {height: 0vh;}
+  to  {height: 50vh;}
 }
 #React{
   border-radius: 50%;
   padding: 6vh;
   width:50vh;
   margin-top: 2vh;
+  animation-name: react;
+  animation-duration: 2s;
+}
+@keyframes angular {
+  from {height: 0vh;}
+  to  {height: 25vh;}
 }
 #Angular{
   border-radius: 40%;
@@ -63,12 +97,20 @@
   height:25vh;
   margin-top: -20vh;
   margin-left: 1vh;
+  animation-name: angular;
+  animation-duration: 2s;
+}
+@keyframes python {
+  from {height: 0vh;}
+  to  {height: 50vh;}
 }
 #Python{
   border-radius: 40%;
   padding: 2vh;
   width:25vh;
   margin-left:  18vh;
+  animation-name: python;
+  animation-duration: 2s;
 }
 .topic{
   font-size: 150%;
