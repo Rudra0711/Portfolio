@@ -1,5 +1,7 @@
-body{
+#body4{
   background-color: white;
+  height:135vh;
+  background: linear-gradient(to bottom,white,#006e6d);
 }
 .whole{
   background-color: white;
@@ -26,10 +28,12 @@ body{
 }
 
 #desc{
-  margin-top: 16vh;
+  margin-top: 15vh;
   width: 140vh;
   margin-left: 28vh;
-  color:black;
+  color:#262626;
+  padding: 1%;
+  border-radius: 12%;
   font-size: 150%;
 }
 
@@ -41,4 +45,5 @@ body{
   margin-left:14vh;
   margin-top:18.2vh;
   margin-bottom: 0vh;
+  object-fit: cover;
 }

@@ -15,7 +15,8 @@
   margin-top: 2vh;
 }
 .work{
-  background-color: #ccffff;
+  background-color: #006e6d;
+  background: linear-gradient(to bottom,white,#006e6d);
   width:40vh;
   height:50vh;
   float: left;
@@ -123,4 +124,5 @@
 #links:hover{
   text-decoration: underline;
   color:black;
+  font-weight: bold;
 }

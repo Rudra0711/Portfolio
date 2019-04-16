@@ -5,7 +5,7 @@ import img from './pic.jpg';
 class AboutMe extends Component{
   render(){
     return (
-      <div >
+      <div id="body4">
         <div class="whole">
         <img class="picabt" src={img} alt="My pic"/>
             {

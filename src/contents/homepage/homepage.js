@@ -30,7 +30,7 @@ class HomePage extends Component{
             <h4>Music - Guitar</h4>
           </ul>
         </div>
-        <h3 id="knowmore">Heyy there, this is my portfolio which will brief you quickly about myself. Visit the links to know more....</h3>
+        <h3 id="knowmore">[ADD TOOLTIPS IN MY_WORK SECTION]Heyy there, this is my portfolio which will brief you quickly about myself. Visit the links to know more....</h3>
 
       </div>
     );
