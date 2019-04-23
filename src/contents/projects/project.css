@@ -1,13 +1,13 @@
 
 @keyframes slideshow {
   0% {content: url('');}
-  1% {content: url('../programming/java.jpg');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -30%;margin-left: -7%;}
- 15% {content: url('../programming/android.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -35%;margin-left: -10%;}
- 30% {content: url('../programming/html_css_js.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -15%;margin-left: -8%;}
- 45% {content: url('../programming/nodejs.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -35%;margin-left: -15%;}
- 60% {content: url('../programming/react.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -22%;margin-left: -11%;}
- 75% {content: url('../programming/angular.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -35%;margin-left: -10%;}
- 90% {content: url('../programming/python.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -22%;margin-left: -7%;}
+  1% {content: url('../programming/java.jpg');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -35%;}
+ 15% {content: url('../programming/android.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -35%;}
+ 30% {content: url('../programming/html_css_js.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -35%;}
+ 45% {content: url('../programming/nodejs.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -35%;}
+ 60% {content: url('../programming/react.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -35%;}
+ 75% {content: url('../programming/angular.png');width:15%;height:15%;padding:50%;margin-bottom: -100%;margin-top: -35%;margin-left: -35%;}
+ 90% {content: url('../programming/python.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -35%;}
 100% {content: url('');}
 }
 #body2{
@@ -19,7 +19,7 @@
   padding-top: 1vh;
   padding-right: 20%;
   animation-name: slideshow;
-  animation-duration: 3s;
+  animation-duration: 4s;
 }
 
 #projHeading{
