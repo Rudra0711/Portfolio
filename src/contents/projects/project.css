@@ -1,14 +1,31 @@
+
+@keyframes slideshow {
+  0% {content: url('');}
+  1% {content: url('../programming/java.jpg');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -30%;margin-left: -7%;}
+ 15% {content: url('../programming/android.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -35%;margin-left: -10%;}
+ 30% {content: url('../programming/html_css_js.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -15%;margin-left: -8%;}
+ 45% {content: url('../programming/nodejs.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -35%;margin-left: -15%;}
+ 60% {content: url('../programming/react.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -22%;margin-left: -11%;}
+ 75% {content: url('../programming/angular.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -35%;margin-left: -10%;}
+ 90% {content: url('../programming/python.png');width:15%;height:15%;padding: 50%;margin-bottom: 100%;margin-top: -22%;margin-left: -7%;}
+100% {content: url('');}
+}
 #body2{
   background-color: #262626;
+  background: linear-gradient(to left bottom,#8c8c8c,#262626);
   height:100vh;
   width:200vh;
   margin-top: -1vh;
   padding-top: 1vh;
+  padding-right: 20%;
+  animation-name: slideshow;
+  animation-duration: 3s;
 }
+
 #projHeading{
   color:white;
-  margin-left: 70vh;
-  margin-top: 5vh;
+  margin-left: 72vh;
+  margin-top: 7%;
   font-size: 250%;
 }
 #lang{
@@ -17,9 +34,91 @@
   margin-top: -4vh;
   font-size: 200%;
 }
+#desc{
+  margin-top: 0%;
+  margin-left: 18%;
+  color:lightgreen;
+  font-family: cursive;
+  width:60%;
+  position: absolute;
+  z-index: 1;
+}
+#github{
+  color:red;
+  font-size: 185%;
+  margin-left: 28%;
+  margin-top: 12%;
+}
+#gitLink{
+  color:white;
+  margin-top: -4%;
+  margin-left: 22%;
+  font-size: 100%;
+}
+#gitLink:hover{
+  color:red;
+  text-decoration: underline;
+}
+#listsDiv{
+  position: relative;
+  z-index: 10;
+  list-style: none;
+  margin-left: 5%;
+}
+.items{
+display: inline-flex;
+width:15%;
+margin-right: 6%;
+font-size: 172%;
+font-family: monospace;
+margin-top: 2%;
+}
+#findImg{
+  margin-left: 6%;
+}
+.items:hover{
+  width:65%;
+  height: 55%;
+  margin-top: -28%;
+  margin-bottom: 65%;
+  padding-left: 11%;
+}
+
+/* NOTEPAD IMAGES */
+#TextEditor:hover{
+   content: url(./notepad/home.png);
+}
+#Menu:hover{
+   content: url(./notepad/menu.png);
+}
+#SaveAsDialogBox:hover{
+   content: url(./notepad/saveas.png);
+}
+#Find-ReplaceDialogBox:hover{
+   content: url(./notepad/find.png);
+}
+
+/* TICTACTOE IMAGES */
+#Welcome:hover{
+  --varTT:blue;
+   content: url(./tictactoe/home2.png);
+}
+#Playerscredentials:hover{
+   content: url(./tictactoe/credentials.png);
+}
+#TheGrid:hover{
+   content: url(./tictactoe/grid.png);
+}
+#TheGame:hover{
+   content: url(./tictactoe/game.png);
+}
+#Result:hover{
+   content: url(./tictactoe/won.png);
+}
+
+
 #info{
   color:red;
-  font-size:200%;
-  margin-left: 68vh;
-  margin-top: 25vh;
+  margin-left: 3%;
+  margin-bottom: 0%;
 }
