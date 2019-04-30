@@ -25,6 +25,7 @@ class HomePage extends Component{
             <h4>Computer Programming</h4>
             <h4>Health & Fitness</h4>
             <h4>Nutrition</h4>
+            <h4>Technology</h4>
             <h4>Sports - Cricket, Badminton, Athletics</h4>
             <h4>Music - Guitar</h4>
           </ul>

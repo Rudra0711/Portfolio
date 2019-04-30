@@ -78,7 +78,6 @@ margin-top: 2%;
   margin-left: 6%;
 }
 .items:hover{
-  
   width:65%;
   height: 55%;
   margin-top: -28%;
@@ -92,8 +91,10 @@ margin-top: 2%;
 }
 #TherearenoimagessinceitisaCommand-LineApp:hover{
   content: url(./no_image.svg);
-  margin-left: -21%;
-  margin-top: -58%;
+  margin-left: -10%;
+  margin-top: -54%;
+  width:85%;
+  opacity: 0.9;
 }
 /* NOTEPAD IMAGES */
 #TextEditor:hover{
@@ -125,47 +126,101 @@ margin-top: 2%;
 #Result:hover{
    content: url(./java/tictactoe/won.png);
 }
-/* E:\Programming work\React work\first-app\src\contents\projects\android\blogapp\comments.jpg */
+
 /* ANDROID IMAGES */
 #LoginScreen:hover{
+  height: -40%;
+  width: 24%;
+  margin-top: -31%;
+  padding-left: 31%;
    content: url(./android/blogapp/login_screen.jpg);
 }
 #SignUpScreen:hover{
-   content: url(./android/blogapp/signUp.jpg);
+  height: -40%;
+  width: 24%;
+  margin-top: -31%;
+  padding-left: 9%;
+  content: url(./android/blogapp/signUp.jpg);
 }
-#HomeScreen:hover{
-   content: url(./android/blogapp/home.jpg);
+#Posts:hover{
+  height: -40%;
+  width: 24%;
+  margin-top: -38%;
+  padding-left: 31%;
+  content: url(./android/blogapp/home_fg.jpg);
 }
 #ProfileScreen:hover{
-   content: url(./android/blogapp/profile.jpg);
+  height: -40%;
+  width: 24%;
+  margin-top: -38%;
+  padding-left: 28%;
+  padding-right: 25%;
+  content: url(./android/blogapp/profile.jpg);
 }
 #CreatePostScreen:hover{
-   content: url(./android/blogapp/create_post.jpg);
+  height: -40%;
+  width: 24%;
+  margin-top: -38%;
+  padding-left: 31%;
+  content: url(./android/blogapp/create_post.jpg);
 }
 #CommentSection:hover{
-   content: url(./android/blogapp/comments.jpg);
+  height: -40%;
+  width: 24%;
+  margin-top: -38%;
+  padding-left: 8%;
+  content: url(./android/blogapp/comments.jpg);
 }
 
 #WelcomeScreen:hover{
+  height: -35%;
+  width: 25%;
+  margin-top: -32%;
+  padding-left: 31%;
    content: url(./android/explore_world/welcome.jpg);
 }
 #Guide:hover{
+  height: -35%;
+  width: 25%;
+  margin-top: -32%;
+  padding-left: 10%;
    content: url(./android/explore_world/guide.jpg);
 }
-#CurrentLocation:hover{
-   content: url(./android/explore_world/curr_location.jpg);
+#Currentlocation:hover{
+   height: -35%;
+  width: 25%;
+  padding-left: 30%;
+  margin-top: -38%;
+   content: url(./android/explore_world/current_location.jpg);
 }
 #Locationyoufetchedfor:hover{
+  height: -35%;
+  width: 25%;
+  margin-top: -41%;
+  padding-left: 30%;
+  padding-right: 35%;
    content: url(./android/explore_world/tapped_location.jpg);
 }
 
 #HomeScreen:hover{
-   content: url(./android/weather/home.jpg);
+  height: -35%;
+  width: 25%;
+  margin-top: -32%;
+  padding-left: 31%;
+   content: url(./android/weather/home_weather.jpg);
 }
 #SearchScreen:hover{
+  height: -35%;
+  width: 25%;
+  margin-top: -32%;
+  padding-left: 10%;
    content: url(./android/weather/search.jpg);
 }
 #WeatherScreen:hover{
+  height: -35%;
+  width: 25%;
+  margin-top: -38%;
+  padding-left: 31%;
    content: url(./android/weather/weather.jpg);
 }
 

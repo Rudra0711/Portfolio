@@ -1,6 +1,6 @@
 #body4{
   background-color: white;
-  height:135vh;
+  height:100%;
   background: linear-gradient(to bottom,#006e6d,white 35%,#006e6d,black);
 }
 .whole{
@@ -28,7 +28,7 @@
 }
 
 #about{
-  background: linear-gradient(to bottom,#262626 64%,white 1%);
+  background: linear-gradient(to bottom,#262626 66%,white 1%);
   -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;
   font-family: cursive;

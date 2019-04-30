@@ -46,7 +46,7 @@ class Projects extends Component{
         desc=`A  blog  posting  app  on  which  after  signing  up , you  can  post  your  own  content ,
          as  well  as  view  the  posts  of  others  as  well ,  with  the  like  and  comment  features  too.`;
         gitLink=`https://github.com/Rudra0711/Blog-App`;
-        images=[`Login Screen`,`SignUp Screen`,`Home Screen`,`Profile Screen`,`Create Post Screen`,`Comment Section`];
+        images=[`Login Screen`,`SignUp Screen`,`Posts`,`Profile Screen`,`Create Post Screen`,`Comment Section`];
         break;
     case 'Explore The World':
         desc=`An  app  in  which  you  can  see  the  address  and  real  image  of  your  current  location  as  well  as
