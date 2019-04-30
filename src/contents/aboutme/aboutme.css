@@ -27,14 +27,18 @@
   font-weight: bold;
 }
 
-#desc{
+#about{
+  background: linear-gradient(to bottom,#262626 64%,white 1%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color:transparent;
+  font-family: cursive;
   margin-top: 15vh;
   width: 140vh;
   margin-left: 28vh;
-  color:#262626;
+  color:black;
   padding: 1%;
-  border-radius: 12%;
-  font-size: 150%;
+  border-radius: 1%;
+  font-size: 130%;
 }
 
 .picabt{

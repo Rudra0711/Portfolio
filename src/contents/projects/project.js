@@ -38,45 +38,65 @@ class Projects extends Component{
         images=[`Text Editor`,`Menu`,`SaveAs Dialog Box`,`Find-Replace Dialog Box`];
         break;
     case 'Tic-tac-toe Game':
-        desc=`The old memories! \n I don't feel like there's any description required :)`;
+        desc=`The  old  memories!  I  don't  feel  like  there's  any  description  required  :)`;
         gitLink=`https://github.com/Rudra0711/Tic_Tac_Toe`;
         images=[`Welcome`,`Players credentials`,`The Grid`,`The Game`,`Result`];
         break;
-    case 'Notepad':
-        desc=`A  text  editor  which  helps  you  save  your  todos  and  other  text documents ,
-        along  with  some  other  functions.`;
-        gitLink=`https://github.com/`;
-        images=[`Text Editor`,`Menu`,`SaveAs Dialog Box`,`Find/Replace Dialog Box`];
+    case 'Blogging App':
+        desc=`A  blog  posting  app  on  which  after  signing  up , you  can  post  your  own  content ,
+         as  well  as  view  the  posts  of  others  as  well ,  with  the  like  and  comment  features  too.`;
+        gitLink=`https://github.com/Rudra0711/Blog-App`;
+        images=[`Login Screen`,`SignUp Screen`,`Home Screen`,`Profile Screen`,`Create Post Screen`,`Comment Section`];
         break;
-    case 'Notepad':
-        desc=`A  text  editor  which  helps  you  save  your  todos  and  other  text documents ,
-        along  with  some  other  functions.`;
-        gitLink=`https://github.com/`;
-        images=[`Text Editor`,`Menu`,`SaveAs Dialog Box`,`Find/Replace Dialog Box`];
+    case 'Explore The World':
+        desc=`An  app  in  which  you  can  see  the  address  and  real  image  of  your  current  location  as  well  as
+         of  any  location  in  the  world  you  want  to .`;
+        gitLink=`https://github.com/Rudra0711/Explore-The-World_App`;
+        images=[`Welcome Screen`,`Guide`,`Current location`,`Location you fetched for`];
         break;
-    case 'Notepad':
-        desc=`A  text  editor  which  helps  you  save  your  todos  and  other  text documents ,
-        along  with  some  other  functions.`;
-        gitLink=`https://github.com/`;
-        images=[`Text Editor`,`Menu`,`SaveAs Dialog Box`,`Find/Replace Dialog Box`];
+    case 'Weather App':
+        desc=`An  app  which  shows  the  current  weather  of  the  place  which  you  search  for.`;
+        gitLink=`https://github.com/Rudra0711/Weather-Android`;
+        images=[`Home Screen`,`Search Screen`,`Weather Screen`];
         break;
-    case 'Notepad':
-        desc=`A  text  editor  which  helps  you  save  your  todos  and  other  text documents ,
-        along  with  some  other  functions.`;
-        gitLink=`https://github.com/`;
-        images=[`Text Editor`,`Menu`,`SaveAs Dialog Box`,`Find/Replace Dialog Box`];
+    case 'News Page':
+        desc=`A  static  News  web  page.`;
+        gitLink=`https://github.com/Rudra0711/News-Web-Page`;
+        images=[`The Page`];
         break;
-    case 'Notepad':
-        desc=`A  text  editor  which  helps  you  save  your  todos  and  other  text documents ,
-        along  with  some  other  functions.`;
-        gitLink=`https://github.com/`;
-        images=[`Text Editor`,`Menu`,`SaveAs Dialog Box`,`Find/Replace Dialog Box`];
+    case 'Clock':
+        desc=`An  analog  clock  showing  the  current  time.`;
+        gitLink=`https://github.com/Rudra0711/Clock_web_page`;
+        images=[`The Clock`];
         break;
-    case 'Notepad':
-        desc=`A  text  editor  which  helps  you  save  your  todos  and  other  text documents ,
-        along  with  some  other  functions.`;
-        gitLink=`https://github.com/`;
-        images=[`Text Editor`,`Menu`,`SaveAs Dialog Box`,`Find/Replace Dialog Box`];
+    case 'Chat App':
+        desc=`A web chatting app in which you can chat in rooms(groups) with others as well as send them your current location as well.`;
+        gitLink=`https://github.com/Rudra0711/ChatApp`;
+        images=[`Home Page`,`Chat Page`,`Location Page`];
+        break;
+    case 'Location Finder App':
+        desc=`An app which tells you the full address, latitude and longitude of the place which you searched for`;
+        gitLink=`https://github.com/Rudra0711/Weather-APIs_nodejs`;
+        images=[`There are no images since it is a Command-Line App`];
+        break;
+    case 'Notes App':
+        desc=`An app to help you save up your tasks and todos`;
+        gitLink=`https://github.com/Rudra0711/Notes-App_nodejs`;
+        images=[`There are no images since it is a Command-Line App`];
+        break;
+    case 'My Portfolio':
+        desc=`The portfolio which you are currently viewing.`;
+        gitLink=`https://github.com/Rudra0711/Portfolio`;
+        break;
+    case 'Hangman Game':
+        desc=`The popular Hangman Game!`;
+        gitLink=`https://github.com/Rudra0711/The-Hangman-Game_python`;
+        images=[`There are no images since it is a Command-Line App`];
+        break;
+    case 'Book Scraping App':
+        desc=`An app which scrapes the website 'http://books.toscrape.com/' to get the info about a particular book .`;
+        gitLink=`https://github.com/Rudra0711/Web-Scraping_python`;
+        images=[`There are no images since it is a Command-Line App`];
         break;
     default:
     per=
@@ -107,6 +127,7 @@ class Projects extends Component{
     images.map((name) => (
 
           <li key={name} class="items" id={name.replace(/ /g,'')}><h4 id="info">{name}</h4></li>
+
     ))
   }
   </ol>
