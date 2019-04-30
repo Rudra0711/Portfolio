@@ -1,15 +1,4 @@
 
-@keyframes slideshow {
-  0% {content: url('');}
-  1% {content: url('../programming/java.jpg');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -7%;}
- 15% {content: url('../programming/android.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -7%;}
- 30% {content: url('../programming/html_css_js.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -7%;}
- 45% {content: url('../programming/nodejs.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -7%;}
- 60% {content: url('../programming/react.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -7%;}
- 75% {content: url('../programming/angular.png');width:15%;height:15%;padding:50%;margin-bottom: -100%;margin-top: -35%;margin-left: -7%;}
- 90% {content: url('../programming/python.png');width:15%;height:15%;padding: 50%;margin-bottom: -100%;margin-top: -35%;margin-left: -7%;}
-100% {content: url('');}
-}
 #body2{
   background-color: #262626;
   background: linear-gradient(to left bottom,#8c8c8c,#262626);
@@ -18,8 +7,7 @@
   margin-top: -1vh;
   padding-top: 1vh;
   padding-right: 20%;
-  animation-name: slideshow;
-  animation-duration: 0s;
+
 }
 
 #projHeading{

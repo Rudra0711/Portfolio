@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import './mywork.css';
-import {NavLink,Route} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import Data from '../data';
 
 class MyWork extends Component{

@@ -1,7 +1,6 @@
 import React,{Component} from 'react';
 import './project.css';
 import Radium from 'radium';
-import $ from 'jquery';
 
 class Projects extends Component{
   render(){
@@ -27,8 +26,7 @@ class Projects extends Component{
   var lang=proj_name.slice(proj_name.lastIndexOf('-'),proj_name.lastIndexOf('-')+2);
   console.log(lang);
   var LANG=lang[1].toUpperCase().concat(proj_name.slice(proj_name.lastIndexOf('-')+2,));
-  let per;
-  let desc,styles,gitLink,createdStyleTag;
+  let desc,gitLink;
   let images=[];
   switch(str){
     case 'Notepad':
@@ -98,15 +96,9 @@ class Projects extends Component{
         gitLink=`https://github.com/Rudra0711/Web-Scraping_python`;
         images=[`There are no images since it is a Command-Line App`];
         break;
-    default:
-    per=
-        (
-          <div id="body2">
-          <h1 id="info">No Info!!</h1>
-          </div>
-        )
-    break;
-
+    default :
+        desc=`No data found!`;
+        break;
   }
 
   return(
