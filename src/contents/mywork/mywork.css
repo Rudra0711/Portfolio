@@ -1,5 +1,6 @@
 #body1{
   background-color: #262626;
+  background: linear-gradient(to top,white 5%,#262626);
   height:175vh;
   width:200vh;
   margin-top: -1vh;

@@ -1,14 +1,14 @@
 #body4{
   background-color: white;
   height:100%;
-  background: linear-gradient(to bottom,#006e6d,white 35%,#006e6d,black);
+  background: linear-gradient(to bottom,black,#006e6d,black,black);
 }
 .whole{
   background-color: white;
   width:200vh;
   height:30vh;
   margin-top: -15vh;
-  border-bottom: 0.3vh solid black;
+  border-bottom: 0.8vh dashed black;
   border-radius: 35%;
 }
 #firstH{
@@ -28,7 +28,7 @@
 }
 
 #about{
-  background: linear-gradient(to bottom,#262626 66%,white 1%);
+  background: linear-gradient(to bottom,white 66%,white 1%);
   -webkit-background-clip: text;
   -webkit-text-fill-color:transparent;
   font-family: cursive;
@@ -42,6 +42,8 @@
 }
 
 .picabt{
+  border-top: 0.8vh dashed black;
+  border-right: 0.8vh dashed black;
   position:relative;
   border-radius:50%;
   width:14%;
