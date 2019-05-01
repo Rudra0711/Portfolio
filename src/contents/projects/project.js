@@ -103,6 +103,7 @@ class Projects extends Component{
 
   return(
     <div id="body2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <h1 title={str} id="projHeading">{str}</h1>
     <h2 id="lang">-{LANG}</h2>
 

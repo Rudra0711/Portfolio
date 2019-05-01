@@ -6,8 +6,9 @@ import './homepage.css';
 class HomePage extends Component{
   render(){
     return(
-      <div id="body3">
 
+      <div id="body3">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <div id="name"><h1 >RUDRAKSH  JHALANI</h1></div>
         <div id="panel"></div>
         <h2 id="first"><NavLink class="active" to="/aboutme">A<br/>B<br/>O<br/>U<br/>T<br/> M<br/>E</NavLink></h2>

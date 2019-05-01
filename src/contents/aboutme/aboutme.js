@@ -6,6 +6,7 @@ class AboutMe extends Component{
   render(){
     return (
       <div id="body4">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <div class="whole">
         <img class="picabt" src={img} alt="My pic"/>
             {
