@@ -138,7 +138,7 @@
   padding-bottom: 4%;
 }
 
-@media only screen and (max-width: 150px) {
+@media only screen and (max-width: 288px) {
   #body3{
     height:145vh;
   }
@@ -148,7 +148,7 @@
   }
   #panel{
     height:130vh;
-    width:10vh;
+    width:5vh;
   }
   #details{
     font-size: 65%;
