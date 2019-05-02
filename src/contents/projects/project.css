@@ -239,7 +239,7 @@ margin-top: 2%;
   #body2{
     width: 32vh;
     height:80vh;
-    padding-right: 0%;
+    padding: -20%;
     background: linear-gradient(to left bottom,#262626 70%,white);
   }
   #projHeading{
