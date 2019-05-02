@@ -130,7 +130,7 @@
 @media only screen and (max-width:600px){
   #body1{
     width:52vh;
-    height: 350vh;
+    height: 320vh;
   }
   #workHeader{
     margin-left: 14vh;
@@ -139,6 +139,7 @@
     margin-left: 6vh;
     margin-top: 2%;
     padding-right: 8%;
+    height:30vh;
   }
   #Android{
     width:60%;
