@@ -53,20 +53,21 @@
 }
 @media only screen and (max-width:600px){
   #body4 .whole{
-    width:54vh;
+    width:52vh;
   }
   .picabt{
     margin-top: 24vh;
-    width: 26%;
-    height:36%;
+    width: 28%;
+    height:38%;
     margin-left: 4%;
   }
   #about{
+    margin-top: -5%;
     margin-left: 1%;
     width: 90%;
     padding-left: 4%;
     padding-right: 4%;
-    margin-left: 2%;
+    margin-left: 4%;
     font-weight: 400;
     /* padding-right: 4%; */
   }
