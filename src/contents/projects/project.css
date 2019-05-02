@@ -237,7 +237,7 @@ margin-top: 2%;
 }
 @media only screen and (max-width:600px){
   #body2{
-    width: 40vh;
+    width: 60vh;
     height:125vh;
     padding: -20%;
     background: linear-gradient(to left bottom,#262626 70%,white);
@@ -284,7 +284,7 @@ margin-top: 2%;
   .items:hover{
     height:32vh;
     width:45vh;
-    margin-left: -12%;
+    margin-left: -26%;
     margin-top: -75%;
     margin-bottom: 80%;
   }
