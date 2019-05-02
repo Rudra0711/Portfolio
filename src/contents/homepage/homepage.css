@@ -141,7 +141,7 @@
 @media only screen and (max-width: 600px) {
   #body3{
     height:220vh;
-    width: 100%;
+    width: 120%;
   }
   #name{
     padding-left: 15%;
@@ -156,10 +156,10 @@
     margin-left: 10%;
     font-size: 75%;
     width:45%;
-    margin-top: -175%;
+    margin-top: -155%;
   }
   #descHeading{
-    width:115%;
+    width:145%;
     margin-left: 12%;
     font-size: 250%;
   }
@@ -174,10 +174,10 @@
   }
   .pic{
     border-radius: 50%;
-    width: 24%;
-    height:4%;
+    width: 26%;
+    height:10%;
     margin-left: 8%;
-    margin-top: 115%;
+    margin-top: 140%;
     /* margin-bottom: 15%; */
   }
   #knowmore{
@@ -188,7 +188,8 @@
     font-weight: 600;
   }
   #first{
-    margin-left: 98%;
+    position: fixed;
+    margin-left: 116%;
     width: 6%;
     font-size: 110%;
     height: 18%;
@@ -196,20 +197,21 @@
     padding-left: 1.2%;
   }
   #second{
-    margin-left: 98%;
+    position: fixed;
+    margin-left: 102%;
     width: 6%;
     font-size: 80%;
-    margin-top: -155%;
+    margin-top: -140%;
     height: 18%;
     padding-top: 16%;
     padding-left: 1.2%;
   }
   #first:hover{
     border: 6px solid #006e6d;
-    margin-left: 102%;
+    margin-left: 100%;
   }
   #second:hover{
     border: 6px solid #006e6d;
-    margin-left: 102%;
+    margin-left: 100%;
   }
 }
