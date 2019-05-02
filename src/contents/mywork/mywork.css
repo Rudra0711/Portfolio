@@ -127,3 +127,44 @@
   color:black;
   font-weight: bold;
 }
+@media only screen and (max-width:600px){
+  #body1{
+    width:52vh;
+    height: 350vh;
+  }
+  #workHeader{
+    margin-left: 14vh;
+  }
+  #Java{
+    margin-left: 6vh;
+    margin-top: 2%;
+    padding-right: 8%;
+  }
+  #Android{
+    width:60%;
+  }
+  #Web{
+    margin-top: 4%;
+    padding-right: 6%;
+    margin-left: 12%;
+    border-radius: 22%;
+  }
+  #Nodejs{
+    margin-left: 10%;
+    width: 75%;
+    margin-top: 4%;
+  }
+  #React{
+    border-radius: 50%;
+    width: 60%;
+    height: 1%;
+  }
+  #Python{
+    margin-left: 8%;
+    margin-top: -2%;
+    padding-right: 8%;
+    height: 20%;
+    border-radius: 5%;
+    width: 70%;
+  }
+}
