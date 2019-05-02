@@ -144,9 +144,9 @@
     width: 100%;
   }
   #name{
-    padding-left: 15%;
+    padding-left: 12%;
     font-size: 120%;
-    width: 60%;
+    width: 55%;
   }
   #panel{
     height:120vh;
@@ -156,7 +156,7 @@
     margin-left: 10%;
     font-size: 75%;
     width:45%;
-    margin-top: -225%;
+    margin-top: -210%;
   }
   #descHeading{
     width:145%;
@@ -177,11 +177,11 @@
     width: 28%;
     height:12%;
     margin-left: 8%;
-    margin-top: 205%;
+    margin-top: 225%;
     /* margin-bottom: 15%; */
   }
   #knowmore{
-    margin-top: -15%;
+    margin-top: -12%;
     margin-left: 14%;
     width: 85%;
     font-size: 118%;
@@ -189,7 +189,7 @@
   }
   #first{
     position: fixed;
-    margin-left: 75%;
+    margin-left: 96%;
     width: 6%;
     font-size: 110%;
     height: 34%;
@@ -198,20 +198,20 @@
   }
   #second{
     position: fixed;
-    margin-left: 75%;
+    margin-left: 96%;
     width: 6%;
     font-size: 80%;
-    margin-top: -160%;
+    margin-top: -145%;
     height: 34%;
     padding-top: 16%;
     padding-left: 1.2%;
   }
   #first:hover{
     border: 6px solid #006e6d;
-    margin-left: 100%;
+    margin-left: 94%;
   }
   #second:hover{
     border: 6px solid #006e6d;
-    margin-left: 100%;
+    margin-left: 94%;
   }
 }
