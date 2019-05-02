@@ -1,7 +1,7 @@
 
 #body2{
   background-color: #262626;
-  background: linear-gradient(to left bottom,white,white);
+  background: linear-gradient(to left bottom,#262626 80%,white);
   height:100vh;
   width:200vh;
   margin-top: -1vh;
@@ -230,10 +230,51 @@ margin-top: 2%;
 #LocationPage:hover{
    /* content: url(./java/tictactoe/won.png); */
 }
-
-
 #info{
   color:red;
   margin-left: 3%;
   margin-bottom: 0%;
+}
+@media only screen and (max-width:600px){
+  #body2{
+    width: 52vh;
+    height:130vh;
+  }
+  #projHeading{
+    width: 110%;
+    margin-left: 16vh;
+    font-size: 235%;
+    margin-top: 14%;
+  }
+  #lang{
+    margin-left: 38vh;
+    font-size: 190%;
+    margin-top: -8%;
+    width: 75%;
+  }
+  #desc{
+    width:65%;
+    margin-left: 6%;
+    font-size: 160%;
+    font-weight: 400;
+  }
+  #github{
+    margin-top: 65%;
+    margin-left: 4%;
+    font-size: 130%;
+  }
+  #gitLink{
+    margin-top: -8%;
+    width: 180%;
+    margin-left: 2%;
+    font-size: 90%;
+  }
+  .items{
+    width:120%;
+    font-size: 150%;
+    font-family: monospace;
+    padding-bottom: 8%;
+    margin-top: -12%;
+    margin-left: -16%;
+  }
 }
