@@ -140,8 +140,8 @@
 
 @media only screen and (max-width: 600px) {
   #body3{
-    height:160vh;
-    width: 120%;
+    height:175vh;
+    width: 100%;
   }
   #name{
     padding-left: 15%;
@@ -156,7 +156,7 @@
     margin-left: 10%;
     font-size: 75%;
     width:45%;
-    margin-top: -200%;
+    margin-top: -225%;
   }
   #descHeading{
     width:145%;
@@ -174,14 +174,14 @@
   }
   .pic{
     border-radius: 50%;
-    width: 26%;
-    height:10%;
+    width: 28%;
+    height:12%;
     margin-left: 8%;
     margin-top: 205%;
     /* margin-bottom: 15%; */
   }
   #knowmore{
-    margin-top: 5%;
+    margin-top: -15%;
     margin-left: 14%;
     width: 85%;
     font-size: 118%;
@@ -189,20 +189,20 @@
   }
   #first{
     position: fixed;
-    margin-left: 80%;
+    margin-left: 75%;
     width: 6%;
     font-size: 110%;
-    height: 18%;
+    height: 34%;
     padding-top: 16%;
     padding-left: 1.2%;
   }
   #second{
     position: fixed;
-    margin-left: 80%;
+    margin-left: 75%;
     width: 6%;
     font-size: 80%;
-    margin-top: -140%;
-    height: 18%;
+    margin-top: -160%;
+    height: 34%;
     padding-top: 16%;
     padding-left: 1.2%;
   }
