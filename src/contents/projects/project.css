@@ -237,8 +237,9 @@ margin-top: 2%;
 }
 @media only screen and (max-width:600px){
   #body2{
-    width: 52vh;
+    width: 28vh;
     height:130vh;
+    background: linear-gradient(to left bottom,#262626 70%,white);
   }
   #projHeading{
     width: 110%;
@@ -253,9 +254,9 @@ margin-top: 2%;
     width: 75%;
   }
   #desc{
-    width:65%;
+    width:85%;
     margin-left: 6%;
-    font-size: 160%;
+    font-size: 140%;
     font-weight: 400;
   }
   #github{
@@ -264,10 +265,10 @@ margin-top: 2%;
     font-size: 130%;
   }
   #gitLink{
-    margin-top: -8%;
+    margin-top: -14%;
     width: 180%;
-    margin-left: 2%;
-    font-size: 90%;
+    margin-left: 4%;
+    font-size: 100%;
   }
   .items{
     width:120%;
