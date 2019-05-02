@@ -148,7 +148,7 @@
   }
   #panel{
     height:130vh;
-    width:25%;
+    width:45%;
   }
   #details{
     font-size: 65%;
@@ -170,8 +170,8 @@
   }
   .pic{
     border-radius: 50%;
-    width: 22%;
-    height:18%;
+    width: 26%;
+    height:14%;
     margin-left: 62%;
     margin-top: -55%;
     margin-bottom: 15%;
@@ -188,16 +188,16 @@
     width: 5.5%;
     font-size: 110%;
     height: 25%;
-    padding-top: 6%;
+    padding-top: 12%;
     padding-left: 1.2%;
   }
   #second{
     margin-left: 92%;
     width: 5.5%;
     font-size: 80%;
-    margin-top: -5%;
+    margin-top: -12%;
     height: 25%;
-    padding-top: 6%;
+    padding-top: 12%;
     padding-left: 1.2%;
   }
 }
