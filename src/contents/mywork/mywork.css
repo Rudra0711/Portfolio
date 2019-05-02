@@ -139,35 +139,35 @@
     margin-left: 6vh;
     margin-top: 2%;
     padding-right: 8%;
-    height:30%;
+    height:40%;
   }
   #Android{
     width:60%;
-    height:50%;
+    height:65%;
   }
   #Web{
     margin-top: 4%;
     padding-right: 6%;
     margin-left: 12%;
     border-radius: 22%;
-    height:50%;
+    height:70%;
   }
   #Nodejs{
     margin-left: 10%;
     width: 75%;
     margin-top: 4%;
-    height:50%;
+    height:80%;
   }
   #React{
     border-radius: 50%;
     width: 60%;
-    height: 1%;
+    height: 6%;
   }
   #Python{
     margin-left: 8%;
     margin-top: 2%;
     padding-right: 8%;
-    height: 20%;
+    height: 25%;
     border-radius: 5%;
     width: 70%;
   }
