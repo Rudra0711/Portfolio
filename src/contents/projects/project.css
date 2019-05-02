@@ -6,7 +6,6 @@
   width:200vh;
   margin-top: -1vh;
   padding-top: 1vh;
-  padding-right: 20%;
 
 }
 
@@ -239,7 +238,6 @@ margin-top: 2%;
   #body2{
     width: 36vh;
     height:125vh;
-    padding-right: -20%;
     background: linear-gradient(to left bottom,#262626 70%,white);
   }
   #projHeading{
@@ -262,7 +260,7 @@ margin-top: 2%;
     font-weight: 400;
   }
   #github{
-    margin-top: 50%;
+    margin-top: 60%;
     margin-left: 10%;
     font-size: 130%;
     margin-bottom: 6%;
@@ -272,6 +270,7 @@ margin-top: 2%;
     width: 80%;
     margin-left: 8%;
     font-size: 80%;
+    margin-bottom: -5%;
   }
   .items{
     width:120%;
