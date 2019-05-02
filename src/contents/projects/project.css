@@ -237,7 +237,7 @@ margin-top: 2%;
 }
 @media only screen and (max-width:600px){
   #body2{
-    width: 26vh;
+    width: 34vh;
     height:80vh;
     padding: -40%;
     background: linear-gradient(to left bottom,#262626 70%,white);
@@ -261,7 +261,7 @@ margin-top: 2%;
     font-weight: 400;
   }
   #github{
-    margin-top: 60%;
+    margin-top: 70%;
     margin-left: 10%;
     font-size: 130%;
     margin-bottom: 6%;
@@ -277,12 +277,12 @@ margin-top: 2%;
     font-size: 150%;
     font-family: monospace;
     padding-bottom: 8%;
-    margin-top: -12%;
+    margin-top: -6%;
     margin-left: -16%;
   }
   .items:hover{
-    height:45vh;
-    width:35vh;
-    margin-bottom: 50%;
+    height:40vh;
+    width:30vh;
+    margin-bottom: 80%;
   }
 }
