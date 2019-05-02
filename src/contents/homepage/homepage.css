@@ -140,26 +140,26 @@
 
 @media only screen and (max-width: 600px) {
   #body3{
-    height:250vh;
+    height:220vh;
     width: 100%;
   }
   #name{
-    padding-left: 10%;
-    font-size: 110%;
-    width: 50%;
+    padding-left: 15%;
+    font-size: 120%;
+    width: 60%;
   }
   #panel{
     height:120vh;
-    width:65%;
+    width:80%;
   }
   #details{
     margin-left: 10%;
     font-size: 75%;
     width:45%;
-    margin-top: -125%;
+    margin-top: -175%;
   }
   #descHeading{
-    width:105%;
+    width:115%;
     margin-left: 12%;
     font-size: 250%;
   }
@@ -175,31 +175,31 @@
   .pic{
     border-radius: 50%;
     width: 24%;
-    height:12%;
+    height:4%;
     margin-left: 8%;
-    margin-top: 95%;
+    margin-top: 115%;
     /* margin-bottom: 15%; */
   }
   #knowmore{
-    margin-top: 65%;
+    margin-top: 50%;
     margin-left: 14%;
     width: 85%;
     font-size: 118%;
     font-weight: 600;
   }
   #first{
-    margin-left: 106%;
-    width: 5.5%;
+    margin-left: 98%;
+    width: 6%;
     font-size: 110%;
     height: 18%;
     padding-top: 16%;
     padding-left: 1.2%;
   }
   #second{
-    margin-left: 106%;
-    width: 5.5%;
+    margin-left: 98%;
+    width: 6%;
     font-size: 80%;
-    margin-top: -135%;
+    margin-top: -155%;
     height: 18%;
     padding-top: 16%;
     padding-left: 1.2%;
