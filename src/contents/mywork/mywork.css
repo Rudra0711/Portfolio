@@ -130,7 +130,7 @@
 @media only screen and (max-width:600px){
   #body1{
     width:52vh;
-    height: 280vh;
+    height: 300vh;
   }
   #workHeader{
     margin-left: 20vh;
@@ -139,21 +139,24 @@
     margin-left: 6vh;
     margin-top: 2%;
     padding-right: 8%;
-    height:10vh;
+    height:30%;
   }
   #Android{
     width:60%;
+    height:50%;
   }
   #Web{
     margin-top: 4%;
     padding-right: 6%;
     margin-left: 12%;
     border-radius: 22%;
+    height:50%;
   }
   #Nodejs{
     margin-left: 10%;
     width: 75%;
     margin-top: 4%;
+    height:50%;
   }
   #React{
     border-radius: 50%;
@@ -162,7 +165,7 @@
   }
   #Python{
     margin-left: 8%;
-    margin-top: -2%;
+    margin-top: 2%;
     padding-right: 8%;
     height: 20%;
     border-radius: 5%;
