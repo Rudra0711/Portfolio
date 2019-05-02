@@ -155,7 +155,7 @@
     margin-left: 10%;
     font-size: 75%;
     width:45%;
-    margin-top: -125%;
+    margin-top: -245%;
   }
   #descHeading{
     width:105%;
@@ -181,7 +181,7 @@
   }
   #knowmore{
     margin-top: 32%;
-    margin-left: 16%;
+    margin-left: 12%;
     width: 85%;
     font-size: 118%;
     font-weight: 600;
@@ -190,8 +190,8 @@
     margin-left: 92%;
     width: 5.5%;
     font-size: 110%;
-    height: 25%;
-    padding-top: 16%;
+    height: 18%;
+    padding-top: 6%;
     padding-left: 1.2%;
   }
   #second{
@@ -199,8 +199,8 @@
     width: 5.5%;
     font-size: 80%;
     margin-top: -125%;
-    height: 25%;
-    padding-top: 16%;
+    height: 18%;
+    padding-top: 6%;
     padding-left: 1.2%;
   }
   #first:hover{
