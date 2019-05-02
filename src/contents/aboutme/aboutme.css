@@ -26,7 +26,6 @@
   font-size: 480%;
   font-weight: bold;
 }
-
 #about{
   background: linear-gradient(to bottom,white 66%,white 1%);
   -webkit-background-clip: text;
@@ -40,7 +39,6 @@
   border-radius: 1%;
   font-size: 130%;
 }
-
 .picabt{
   border-top: 0.8vh dashed black;
   border-right: 0.8vh dashed black;
@@ -52,4 +50,21 @@
   margin-top:18.2vh;
   margin-bottom: 0vh;
   object-fit: cover;
+}
+@media only screen and (max-width:600px){
+  .whole{
+    width:95vh;
+  }
+  .picabt{
+    margin-top: 21vh;
+    width: 22%;
+    margin-left: 9vh;
+  }
+  #about{
+    margin-left: 1%;
+    width: 90%;
+    padding: 4%;
+    margin-left: 2%;
+    /* padding-right: 4%; */
+  }
 }

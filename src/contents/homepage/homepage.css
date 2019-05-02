@@ -157,7 +157,7 @@
     font-size: 75%;
     width:45%;
     margin-top: -245%;
-    margin-bottom: 45%;
+    padding-top: -10%;
   }
   #descHeading{
     width:145%;
@@ -202,7 +202,7 @@
     margin-left: 90%;
     width: 6%;
     font-size: 80%;
-    margin-top: -205%;
+    margin-top: -208%;
     height: 36%;
     padding-top: 16%;
     padding-left: 1.5%;
