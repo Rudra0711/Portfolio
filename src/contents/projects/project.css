@@ -237,9 +237,9 @@ margin-top: 2%;
 }
 @media only screen and (max-width:600px){
   #body2{
-    width: 34vh;
+    width: 35vh;
     height:80vh;
-    padding: -40%;
+    padding: 0%;
     background: linear-gradient(to left bottom,#262626 70%,white);
   }
   #projHeading{
@@ -257,6 +257,7 @@ margin-top: 2%;
   #desc{
     width:60%;
     margin-left: 10%;
+    margin-top: 4%;
     font-size: 120%;
     font-weight: 400;
   }
@@ -281,8 +282,9 @@ margin-top: 2%;
     margin-left: -16%;
   }
   .items:hover{
-    height:40vh;
-    width:30vh;
+    height:35vh;
+    width:45vh;
+    margin-top: -70%;
     margin-bottom: 80%;
   }
 }
