@@ -156,7 +156,7 @@
     margin-left: 10%;
     font-size: 75%;
     width:45%;
-    margin-top: -215%;
+    margin-top: -225%;
   }
   #descHeading{
     width:145%;
@@ -174,37 +174,37 @@
   }
   .pic{
     border-radius: 50%;
-    width: 32%;
+    width: 35%;
     height:12%;
     margin-left: 8%;
-    margin-top: 235%;
+    margin-top: 245%;
     /* margin-bottom: 15%; */
   }
   #knowmore{
     margin-top: -12%;
     margin-left: 14%;
-    width: 85%;
-    font-size: 118%;
-    font-weight: 600;
+    width: 80%;
+    font-size: 115%;
+    font-weight: 500;
   }
   #first{
     position: fixed;
     margin-left: 88%;
     width: 6%;
     font-size: 110%;
-    height: 34%;
+    height: 36%;
     padding-top: 16%;
-    padding-left: 1.2%;
+    padding-left: 1.5%;
   }
   #second{
     position: fixed;
     margin-left: 88%;
     width: 6%;
     font-size: 80%;
-    margin-top: -145%;
-    height: 34%;
+    margin-top: -170%;
+    height: 36%;
     padding-top: 16%;
-    padding-left: 1.2%;
+    padding-left: 1.5%;
   }
   #first:hover{
     border: 6px solid #006e6d;
