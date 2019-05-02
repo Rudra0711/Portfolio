@@ -237,37 +237,37 @@ margin-top: 2%;
 }
 @media only screen and (max-width:600px){
   #body2{
-    width: 40vh;
-    height:110vh;
+    width: 24vh;
+    height:80vh;
     background: linear-gradient(to left bottom,#262626 70%,white);
   }
   #projHeading{
-    width: 110%;
-    margin-left: 10vh;
-    font-size: 215%;
+    width: 90%;
+    margin-left: 4vh;
+    font-size: 195%;
     margin-top: 16%;
   }
   #lang{
     margin-left: 32vh;
-    font-size: 190%;
+    font-size: 175%;
     margin-top: -8%;
     width: 75%;
   }
   #desc{
-    width:90%;
-    margin-left: 6%;
-    font-size: 140%;
+    width:80%;
+    margin-left: 10%;
+    font-size: 120%;
     font-weight: 400;
   }
   #github{
-    margin-top: 65%;
+    margin-top: 60%;
     margin-left: 4%;
     font-size: 130%;
     margin-bottom: 2%;
   }
   #gitLink{
-    margin-top: -14%;
-    width: 180%;
+    margin-top: -4%;
+    width: 80%;
     margin-left: 4%;
     font-size: 100%;
   }
