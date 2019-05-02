@@ -150,13 +150,13 @@
   }
   #panel{
     height:120vh;
-    width:80%;
+    width:75%;
   }
   #details{
     margin-left: 10%;
     font-size: 75%;
     width:45%;
-    margin-top: -160%;
+    margin-top: -200%;
   }
   #descHeading{
     width:145%;
@@ -177,11 +177,11 @@
     width: 26%;
     height:10%;
     margin-left: 8%;
-    margin-top: 220%;
+    margin-top: 205%;
     /* margin-bottom: 15%; */
   }
   #knowmore{
-    margin-top: 50%;
+    margin-top: 5%;
     margin-left: 14%;
     width: 85%;
     font-size: 118%;
@@ -189,7 +189,7 @@
   }
   #first{
     position: fixed;
-    margin-left: 96%;
+    margin-left: 80%;
     width: 6%;
     font-size: 110%;
     height: 18%;
@@ -198,7 +198,7 @@
   }
   #second{
     position: fixed;
-    margin-left: 96%;
+    margin-left: 80%;
     width: 6%;
     font-size: 80%;
     margin-top: -140%;
