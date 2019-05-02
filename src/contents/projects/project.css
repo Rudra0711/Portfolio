@@ -236,9 +236,8 @@ margin-top: 2%;
 }
 @media only screen and (max-width:600px){
   #body2{
-    width: 48vh;
+    width: 480vh;
     height:125vh;
-    padding-right: 0%;
     background: linear-gradient(to left bottom,#262626 70%,white);
   }
   #projHeading{
