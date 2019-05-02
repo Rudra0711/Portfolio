@@ -141,6 +141,7 @@
 @media only screen and (max-width: 600px) {
   #body3{
     height:215vh;
+    width: 125vh;
   }
   #name{
     padding-left: 12%;
@@ -148,14 +149,14 @@
     width: 50%;
   }
   #panel{
-    height:150vh;
+    height:130vh;
     width:65%;
   }
   #details{
     margin-left: 10%;
     font-size: 75%;
     width:45%;
-    margin-top: -245%;
+    margin-top: -225%;
   }
   #descHeading{
     width:105%;
@@ -198,7 +199,7 @@
     margin-left: 92%;
     width: 5.5%;
     font-size: 80%;
-    margin-top: -125%;
+    margin-top: -265%;
     height: 18%;
     padding-top: 6%;
     padding-left: 1.2%;
