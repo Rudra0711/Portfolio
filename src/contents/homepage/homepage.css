@@ -156,7 +156,7 @@
     margin-left: 10%;
     font-size: 75%;
     width:45%;
-    margin-top: -75%;
+    margin-top: -125%;
   }
   #descHeading{
     width:105%;
@@ -177,39 +177,39 @@
     width: 24%;
     height:12%;
     margin-left: 8%;
-    margin-top: 80%;
+    margin-top: 95%;
     /* margin-bottom: 15%; */
   }
   #knowmore{
-    margin-top: 80%;
+    margin-top: 65%;
     margin-left: 14%;
     width: 85%;
     font-size: 118%;
     font-weight: 600;
   }
   #first{
-    margin-left: 92%;
-    width: 4%;
+    margin-left: 106%;
+    width: 5.5%;
     font-size: 110%;
     height: 18%;
-    padding-top: 6%;
+    padding-top: 16%;
     padding-left: 1.2%;
   }
   #second{
-    margin-left: 92%;
-    width: 4%;
+    margin-left: 106%;
+    width: 5.5%;
     font-size: 80%;
-    margin-top: -112%;
+    margin-top: -135%;
     height: 18%;
-    padding-top: 6%;
+    padding-top: 16%;
     padding-left: 1.2%;
   }
   #first:hover{
     border: 6px solid #006e6d;
-    margin-left: 90%;
+    margin-left: 102%;
   }
   #second:hover{
     border: 6px solid #006e6d;
-    margin-left: 90%;
+    margin-left: 102%;
   }
 }
