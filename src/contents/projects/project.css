@@ -236,8 +236,8 @@ margin-top: 2%;
 }
 @media only screen and (max-width:600px){
   #body2{
-    width: 12vh;
-    height:100vh;
+    width: 16vh;
+    height:110vh;
     padding: 50%;
     background: linear-gradient(to left bottom,#262626 70%,white);
   }
@@ -287,9 +287,90 @@ margin-top: 2%;
   .items:hover{
     height:32vh;
     width:44vh;
-    margin-left: -15%;
+    margin-left: 15%;
     margin-right: 280%;
     margin-top: -475%;
     margin-bottom: 450%;
+  }
+  #LoginScreen:hover{
+    height: 70%;
+    width: 150%;
+    margin-top: -12%;
+  }
+  #SignUpScreen:hover{
+    height: -40%;
+    width: 24%;
+    margin-top: -31%;
+    padding-left: 9%;
+  }
+  #Posts:hover{
+    height: -40%;
+    width: 24%;
+    margin-top: -38%;
+    padding-left: 31%;
+  }
+  #ProfileScreen:hover{
+    height: -40%;
+    width: 24%;
+    margin-top: -38%;
+    padding-left: 28%;
+    padding-right: 25%;
+  }
+  #CreatePostScreen:hover{
+    height: -40%;
+    width: 24%;
+    margin-top: -38%;
+    padding-left: 31%;
+  }
+  #CommentSection:hover{
+    height: -40%;
+    width: 24%;
+    margin-top: -38%;
+    padding-left: 8%;
+  }
+
+  #WelcomeScreen:hover{
+    height: -35%;
+    width: 25%;
+    margin-top: -32%;
+    padding-left: 31%;
+  }
+  #Guide:hover{
+    height: -35%;
+    width: 25%;
+    margin-top: -32%;
+    padding-left: 10%;
+  }
+  #Currentlocation:hover{
+     height: -35%;
+    width: 25%;
+    padding-left: 30%;
+    margin-top: -38%;
+  }
+  #Locationyoufetchedfor:hover{
+    height: -35%;
+    width: 25%;
+    margin-top: -41%;
+    padding-left: 30%;
+    padding-right: 35%;
+  }
+
+  #HomeScreen:hover{
+    height: -35%;
+    width: 25%;
+    margin-top: -32%;
+    padding-left: 31%;
+  }
+  #SearchScreen:hover{
+    height: -35%;
+    width: 25%;
+    margin-top: -32%;
+    padding-left: 10%;
+  }
+  #WeatherScreen:hover{
+    height: -35%;
+    width: 25%;
+    margin-top: -38%;
+    padding-left: 31%;
   }
 }
