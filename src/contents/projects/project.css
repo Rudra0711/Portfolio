@@ -242,20 +242,20 @@ margin-top: 2%;
     background: linear-gradient(to left bottom,#262626 70%,white);
   }
   #projHeading{
-    width: 180%;
-    margin-left: -18vh;
+    width:500%;
+    margin-left: -34vh;
     font-size: 195%;
-    margin-top: -56%;
+    margin-top: -220%;
   }
   #lang{
-    margin-left: -2vh;
+    margin-left: 8vh;
     font-size: 175%;
     margin-top: -15%;
-    width: 75%;
+    width: 150%;
   }
   #desc{
-    width:160%;
-    margin-left: -50%;
+    width:300%;
+    margin-left: -160%;
     margin-top: 4%;
     font-size: 120%;
     font-weight: 500;
@@ -264,14 +264,14 @@ margin-top: 2%;
   #github{
     position: relative;
     margin-top: 10%;
-    margin-left: -45%;
+    margin-left: -190%;
     font-size: 130%;
     margin-bottom: 6%;
   }
   #gitLink{
-    margin-top: -15%;
-    width: 80%;
-    margin-left: -28%;
+    margin-top: -32%;
+    width:360%;
+    margin-left: -18%;
     font-size: 80%;
     margin-bottom: 5%;
   }
@@ -280,15 +280,15 @@ margin-top: 2%;
     font-size: 150%;
     font-family: monospace;
     padding-bottom: 8%;
-    margin-right: 65%;
+    padding-right: 400%;
     margin-top: -6%;
-    margin-left: -140%;
+    margin-left: -460%;
   }
   .items:hover{
     height:32vh;
     width:44vh;
-    margin-left: -48%;
-    margin-top: -85%;
-    margin-bottom: 120%;
+    margin-right: 250%;
+    margin-top: -475%;
+    margin-bottom: 450%;
   }
 }
