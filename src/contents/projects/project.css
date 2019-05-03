@@ -242,7 +242,7 @@ margin-top: 2%;
     background: linear-gradient(to left bottom,#262626 70%,white);
   }
   #projHeading{
-    width:300%;
+    width:350%;
     margin-left: -18vh;
     font-size: 195%;
     margin-top: -170%;
@@ -270,7 +270,7 @@ margin-top: 2%;
   }
   #gitLink{
     margin-top: -28%;
-    width:360%;
+    width:300%;
     margin-left: -16%;
     font-size: 80%;
     margin-bottom: 5%;
@@ -287,6 +287,7 @@ margin-top: 2%;
   .items:hover{
     height:32vh;
     width:44vh;
+    margin-left: -15%;
     margin-right: 280%;
     margin-top: -475%;
     margin-bottom: 450%;
