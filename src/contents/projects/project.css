@@ -236,42 +236,42 @@ margin-top: 2%;
 }
 @media only screen and (max-width:600px){
   #body2{
-    width: 22vh;
+    width: 16vh;
     height:100vh;
     padding: 50%;
     background: linear-gradient(to left bottom,#262626 70%,white);
   }
   #projHeading{
-    width: 150%;
+    width: 180%;
     margin-left: -18vh;
     font-size: 195%;
-    margin-top: -50%;
+    margin-top: -56%;
   }
   #lang{
     margin-left: -2vh;
     font-size: 175%;
-    margin-top: -8%;
+    margin-top: -15%;
     width: 75%;
   }
   #desc{
-    width:110%;
+    width:160%;
     margin-left: -50%;
     margin-top: 4%;
     font-size: 120%;
-    font-weight: 400;
+    font-weight: 500;
     position: relative;
   }
   #github{
     position: relative;
     margin-top: 10%;
-    margin-left: -60%;
+    margin-left: -45%;
     font-size: 130%;
     margin-bottom: 6%;
   }
   #gitLink{
     margin-top: -15%;
     width: 80%;
-    margin-left: -14%;
+    margin-left: -28%;
     font-size: 80%;
     margin-bottom: 5%;
   }
@@ -282,12 +282,12 @@ margin-top: 2%;
     padding-bottom: 8%;
     margin-right: 65%;
     margin-top: -6%;
-    margin-left: -110%;
+    margin-left: -140%;
   }
   .items:hover{
     height:32vh;
-    width:40vh;
-    margin-left: -26%;
+    width:44vh;
+    margin-left: -48%;
     margin-top: -85%;
     margin-bottom: 120%;
   }
