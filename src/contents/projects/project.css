@@ -287,14 +287,14 @@ margin-top: 2%;
   .items:hover{
     height:32vh;
     width:44vh;
-    margin-left: -800%;
+    margin-left: -650%;
     margin-top: -475%;
     margin-bottom: 450%;
   }
   #LoginScreen:hover{
-    height: 860%;
-    width: 1000%;
-    margin-top: -1250%;
+    height: 650%;
+    width: 800%;
+    margin-top: -1050%;
   }
   #SignUpScreen:hover{
     height: -40%;
