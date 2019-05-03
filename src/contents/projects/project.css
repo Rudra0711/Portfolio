@@ -271,7 +271,7 @@ margin-top: 2%;
   #gitLink{
     margin-top: -15%;
     width: 80%;
-    margin-left: -22%;
+    margin-left: -12%;
     font-size: 80%;
     margin-bottom: 5%;
   }
@@ -280,8 +280,9 @@ margin-top: 2%;
     font-size: 150%;
     font-family: monospace;
     padding-bottom: 8%;
+    margin-right: 65%;
     margin-top: -6%;
-    margin-left: -85%;
+    margin-left: -115%;
   }
   .items:hover{
     height:32vh;
