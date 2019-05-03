@@ -295,62 +295,62 @@ margin-top: 2%;
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #SignUpScreen:hover{
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #Posts:hover{
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #ProfileScreen:hover{
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #CreatePostScreen:hover{
     height: 500%;
     width: 600%;
     margin-top: -700%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #CommentSection:hover{
     height: 500%;
     width: 600%;
     margin-top: -850%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
 
   #WelcomeScreen:hover{
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #Guide:hover{
     height: 500%;
     width: 600%;
     margin-top: -600%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #Currentlocation:hover{
     height: 500%;
     width: 600%;
     margin-top: -705%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #Locationyoufetchedfor:hover{
     height: 500%;
     width: 600%;
     margin-top: -710%;
-    margin-left: -565%;
+    margin-left: -500%;
     padding-right: 35%;
   }
 
@@ -358,18 +358,18 @@ margin-top: 2%;
     height: 500%;
     width: 600%;
     margin-top: -550%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #SearchScreen:hover{
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
   #WeatherScreen:hover{
     height: 500%;
     width: 600%;
     margin-top: -685%;
-    margin-left: -565%;
+    margin-left: -500%;
   }
 }
