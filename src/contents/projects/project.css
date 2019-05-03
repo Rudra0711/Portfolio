@@ -245,7 +245,7 @@ margin-top: 2%;
     width: 150%;
     margin-left: -30vh;
     font-size: 195%;
-    margin-top: -100%;
+    margin-top: -70%;
   }
   #lang{
     margin-left: -12vh;
@@ -264,14 +264,14 @@ margin-top: 2%;
   #github{
     position: relative;
     margin-top: 10%;
-    margin-left: -80%;
+    margin-left: -60%;
     font-size: 130%;
     margin-bottom: 6%;
   }
   #gitLink{
-    margin-top: -18%;
+    margin-top: -16%;
     width: 80%;
-    margin-left: -15%;
+    margin-left: -25%;
     font-size: 80%;
     margin-bottom: 5%;
   }
@@ -281,7 +281,7 @@ margin-top: 2%;
     font-family: monospace;
     padding-bottom: 8%;
     margin-top: -6%;
-    margin-left: -16%;
+    margin-left: -45%;
   }
   .items:hover{
     height:32vh;
