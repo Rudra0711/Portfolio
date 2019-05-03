@@ -294,83 +294,83 @@ margin-top: 2%;
   #LoginScreen:hover{
     height: 500%;
     width: 600%;
-    margin-top: -550%;
-    margin-left: 25%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
   #SignUpScreen:hover{
-    height: -40%;
-    width: 24%;
-    margin-top: -31%;
-    padding-left: 9%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
   #Posts:hover{
-    height: -40%;
-    width: 24%;
-    margin-top: -38%;
-    padding-left: 31%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
   #ProfileScreen:hover{
-    height: -40%;
-    width: 24%;
-    margin-top: -38%;
-    padding-left: 28%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
     padding-right: 25%;
   }
   #CreatePostScreen:hover{
-    height: -40%;
-    width: 24%;
-    margin-top: -38%;
-    padding-left: 31%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
   #CommentSection:hover{
-    height: -40%;
-    width: 24%;
-    margin-top: -38%;
-    padding-left: 8%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
 
   #WelcomeScreen:hover{
-    height: -35%;
-    width: 25%;
-    margin-top: -32%;
-    padding-left: 31%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
   #Guide:hover{
-    height: -35%;
-    width: 25%;
-    margin-top: -32%;
-    padding-left: 10%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
   #Currentlocation:hover{
-     height: -35%;
-    width: 25%;
-    padding-left: 30%;
-    margin-top: -38%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
   #Locationyoufetchedfor:hover{
-    height: -35%;
-    width: 25%;
-    margin-top: -41%;
-    padding-left: 30%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
     padding-right: 35%;
   }
 
   #HomeScreen:hover{
-    height: -35%;
-    width: 25%;
-    margin-top: -32%;
-    padding-left: 31%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
   #SearchScreen:hover{
-    height: -35%;
-    width: 25%;
-    margin-top: -32%;
-    padding-left: 10%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
   #WeatherScreen:hover{
-    height: -35%;
-    width: 25%;
-    margin-top: -38%;
-    padding-left: 31%;
+    height: 500%;
+    width: 600%;
+    margin-top: -575%;
+    margin-left: 12%;
   }
 }
