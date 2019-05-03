@@ -236,7 +236,7 @@ margin-top: 2%;
 }
 @media only screen and (max-width:600px){
   #body2{
-    width: 16vh;
+    width: 12vh;
     height:110vh;
     padding: 50%;
     background: linear-gradient(to left bottom,#262626 70%,white);
