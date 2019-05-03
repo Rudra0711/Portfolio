@@ -295,62 +295,62 @@ margin-top: 2%;
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -350%;
+    margin-left: -390%;
   }
   #SignUpScreen:hover{
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -350%;
+    margin-left: -390%;
   }
   #Posts:hover{
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -350%;
+    margin-left: -390%;
   }
   #ProfileScreen:hover{
     height: 500%;
     width: 600%;
-    margin-top: -575%;
-    margin-left: -350%;
+    margin-top: -655%;
+    margin-left: -390%;
   }
   #CreatePostScreen:hover{
     height: 500%;
     width: 600%;
-    margin-top: -700%;
-    margin-left: -350%;
+    margin-top: -850%;
+    margin-left: -390%;
   }
   #CommentSection:hover{
     height: 500%;
     width: 600%;
-    margin-top: -850%;
-    margin-left: -350%;
+    margin-top: -1000%;
+    margin-left: -390%;
   }
 
   #WelcomeScreen:hover{
     height: 500%;
     width: 600%;
     margin-top: -575%;
-    margin-left: -350%;
+    margin-left: -390%;
   }
   #Guide:hover{
     height: 500%;
     width: 600%;
-    margin-top: -600%;
-    margin-left: -350%;
+    margin-top: -650%;
+    margin-left: -390%;
   }
   #Currentlocation:hover{
     height: 500%;
     width: 600%;
-    margin-top: -705%;
-    margin-left: -350%;
+    margin-top: -775%;
+    margin-left: -390%;
   }
   #Locationyoufetchedfor:hover{
     height: 500%;
     width: 600%;
-    margin-top: -710%;
-    margin-left: -350%;
+    margin-top: -800%;
+    margin-left: -390%;
     padding-right: 35%;
   }
 
@@ -358,18 +358,18 @@ margin-top: 2%;
     height: 500%;
     width: 600%;
     margin-top: -550%;
-    margin-left: -350%;
+    margin-left: -390%;
   }
   #SearchScreen:hover{
     height: 500%;
     width: 600%;
-    margin-top: -575%;
-    margin-left: -350%;
+    margin-top: -615%;
+    margin-left: -390%;
   }
   #WeatherScreen:hover{
     height: 500%;
     width: 600%;
-    margin-top: -685%;
-    margin-left: -350%;
+    margin-top: -725%;
+    margin-left: -390%;
   }
 }
