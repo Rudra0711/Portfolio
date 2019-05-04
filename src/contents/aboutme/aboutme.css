@@ -73,20 +73,25 @@
     width:52vh;
   }
   .whole{
-    width:55vh;
+    border-radius: 4%;
+    width:45vh;
+    height:170vh;
+    margin-top:-170vh;
   }
   .picabt{
-    margin-top: 24vh;
+    margin-top: 6vh;
     width: 32%;
     height:52%;
-    margin-left: 4%;
+    margin-left: 2%;
   }
   #about{
     margin-left: 1%;
-    width: 90%;
-    padding-left: 4%;
+    width: 80%;
+    padding: 4vh;
+    padding-left: 8%;
     padding-right: 4%;
     margin-left: 4%;
+    font-size: 90%;
     font-weight: 400;
     font-family: sans-serif;
     /* padding-right: 4%; */
