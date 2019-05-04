@@ -349,7 +349,7 @@ color: skyblue;
     width: 12vh;
     height:110vh;
     padding: 50%;
-    background: linear-gradient(to left bottom,#262626 70%,white);
+    background:black;
   }
   #projHeading{
     width:350%;
@@ -358,11 +358,12 @@ color: skyblue;
     margin-top: -170%;
   }
   #Notepad{
-    margin-left: -185%;
-    margin-top: -250%;
+    margin-left: -145%;
+    margin-top: -200%;
+    width:290%;
   }
   #Notepad_{
-    margin-left: 85%;
+    margin-left: 15%;
     margin-top: -50%;
     margin-bottom: 60%;
     width: 160%;
@@ -392,7 +393,7 @@ color: skyblue;
   }
   #desc{
     width:280%;
-    margin-left: -160%;
+    margin-left: -140%;
     margin-top: -16%;
     font-size: 120%;
     font-weight: 500;
