@@ -142,7 +142,7 @@
 @media only screen and (max-width:600px){
   #body1{
     width:52vh;
-    height: 300vh;
+    height: 330vh;
   }
   #workHeader{
     margin-left: 20vh;
@@ -178,6 +178,7 @@
     border-radius: 50%;
     width: 60%;
     height: 16vh;
+    margin-left: -3%;
   }
   #Python{
     margin-left: 8%;

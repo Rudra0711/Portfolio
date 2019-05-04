@@ -353,10 +353,37 @@ color: skyblue;
   }
   #projHeading{
     width:350%;
-    margin-left: -18vh;
+    margin-left: -12vh;
     font-size: 195%;
     margin-top: -170%;
   }
+  #Notepad{
+    margin-left: -185%;
+    margin-top: -250%;
+  }
+  #Notepad_{
+    margin-left: 85%;
+    margin-top: -50%;
+    margin-bottom: 60%;
+    width: 160%;
+  }
+
+  #NewsPage{
+    margin-left: 32%;
+    width:24%;
+  }
+  #Clock{
+    margin-left: 34%;
+    width: 18%;
+  }
+  #ChatApp{
+    margin-left: 32%;
+    width: 24%;
+  }
+  #LocationFinderApp{
+    margin-left: 30%;
+  }
+
   #lang{
     margin-left: 8vh;
     font-size: 175%;
