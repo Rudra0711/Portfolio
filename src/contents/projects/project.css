@@ -345,10 +345,14 @@ color: skyblue;
   margin-bottom: 0%;
 }
 @media only screen and (max-width:600px){
-  .box{}
+  .box{
+    width: 0%;
+    height:0%;
+    animation-name: none;
+  }
   #body2{
     width: 12vh;
-    height:90vh;
+    height:110vh;
     padding: 50%;
     background:black;
   }
@@ -361,14 +365,14 @@ color: skyblue;
   #Notepad{
     margin-left: -145%;
     margin-top: -170%;
-    width:230%;
+    width:220%;
   }
-  #Notepad_{
-    margin-left: 25%;
-    margin-top: -28%;
-    margin-bottom: 60%;
-    width: 130%;
-  }
+#BloggingApp{
+  margin-left: -220%;
+  margin-top: -170%;
+  font-size: 220%;
+  width: 380%;
+}
 
   #NewsPage{
     margin-left: 32%;
@@ -385,6 +389,12 @@ color: skyblue;
   #LocationFinderApp{
     margin-left: 30%;
   }
+  #Tic-tac-toeGame{
+    margin-left: -290%;
+    font-size: 220%;
+    margin-top: -125%;
+    width: 465%;
+  }
 
   #lang{
     margin-left: 8vh;
@@ -392,6 +402,50 @@ color: skyblue;
     margin-top: -8%;
     width: 150%;
   }
+  #Notepad_{
+    margin-left: -10%;
+    margin-top: -28%;
+    margin-bottom: 60%;
+    padding-left: 50%;
+    width: 130%;
+  }
+  #Tic-tac-toeGame_{
+    margin-left: -22%;
+    padding-left: 100%;
+    margin-bottom: 52%;
+    width: 150%;
+  }
+  #BloggingApp_{
+    margin-left: -60%;
+    margin-top: -30%;
+    font-size: 200%;
+    margin-bottom: 50%;
+    width: 230%;
+    padding-left: 50%;
+  }
+  #NewsPage_{
+    margin-left: 45%;
+    padding-left: 5%;
+    width: 8%;
+  }
+  #Clock_{
+    margin-left: 42%;
+    padding-left: 5%;
+    width: 7.5%;
+  }
+  #ChatApp_{
+    margin-left: 48%;
+    width: 10%;
+  }
+  #LocationFinderApp_{
+    margin-left: 54%;
+  }
+
+  #MyPortfolio_{
+    margin-left: 46%;
+    width:9%;
+  }
+
   #desc{
     width:280%;
     margin-left: -140%;
