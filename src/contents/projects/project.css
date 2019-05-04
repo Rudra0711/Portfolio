@@ -345,6 +345,7 @@ color: skyblue;
   margin-bottom: 0%;
 }
 @media only screen and (max-width:600px){
+  .box{}
   #body2{
     width: 12vh;
     height:90vh;
@@ -363,10 +364,10 @@ color: skyblue;
     width:230%;
   }
   #Notepad_{
-    margin-left: 15%;
-    margin-top: -35%;
+    margin-left: 25%;
+    margin-top: -28%;
     margin-bottom: 60%;
-    width: 120%;
+    width: 130%;
   }
 
   #NewsPage{
