@@ -1,50 +1,112 @@
 
 #body2{
-  background-color: #262626;
-  background: linear-gradient(to left bottom,#262626 80%,white);
-  height:100vh;
+  background-color: black;
+  /* background: linear-gradient(to left bottom,#262626 80%,white); */
+  height:110vh;
   width:200vh;
-  margin-top: -1vh;
+  margin-top:0vh;
   padding-top: 1vh;
-
 }
 
-#projHeading{
-  color:white;
-  margin-left: 72vh;
+.projHeading{
+  border-top: 5px solid #bde4f5;
+  border-left: 2px solid #bde4f5;
+  color:skyblue;
+  width: 28%;
+  padding-left: 4vh;
+  margin-left: 60vh;
   margin-top: 7%;
   font-size: 250%;
 }
-#lang{
-  color:lightgreen;
+#Notepad{
+  margin-left: 35%;
+  width: 22%;
+}
+
+#NewsPage{
+  margin-left: 32%;
+  width:24%;
+}
+#Clock{
+  margin-left: 34%;
+  width: 18%;
+}
+#ChatApp{
+  margin-left: 32%;
+  width: 24%;
+}
+#LocationFinderApp{
+  margin-left: 30%;
+}
+.lang{
+  border-bottom: 2px solid skyblue;
+  border-right: 6px solid skyblue;
+  color:white;
+  width: 11%;
+  margin-bottom: 4%;
+  padding-bottom: 0.6%;
   margin-left: 100vh;
   margin-top: -4vh;
   font-size: 200%;
 }
+#Tic-tac-toeGame_{
+  margin-left: 48%;
+  padding-left: 5%;
+  width: 7%;
+}
+#NewsPage_{
+  margin-left: 45%;
+  padding-left: 5%;
+  width: 8%;
+}
+#Clock_{
+  margin-left: 42%;
+  padding-left: 5%;
+  width: 7.5%;
+}
+#ChatApp_{
+  margin-left: 48%;
+  width: 10%;
+}
+#LocationFinderApp_{
+  margin-left: 54%;
+}
+#MyPortfolio{
+  width:22%;
+}
+#MyPortfolio_{
+  margin-left: 46%;
+  width:9%;
+}
+
+
 #desc{
-  margin-top: 0%;
+  margin-top: 1%;
   margin-left: 18%;
-  color:lightgreen;
+  color:#bde4f5;
+  font-weight: 400;
   font-family: monospace;
-  font-size: 195%;
+  font-size: 190%;
   width:60%;
   position: absolute;
   z-index: 1;
 }
 #github{
-  color:red;
+  color:#bde4f5;
   font-size: 185%;
   margin-left: 28%;
-  margin-top: 12%;
+  margin-top: 13%;
 }
 #gitLink{
   color:white;
   margin-top: -4%;
-  margin-left: 22%;
+  margin-left: 21%;
   font-size: 100%;
 }
 #gitLink:hover{
-  color:red;
+  font-weight: bold;
+  font-size: 110%;
+  color:skyblue;
   text-decoration: underline;
 }
 #listsDiv{
@@ -52,7 +114,10 @@
   z-index: 10;
   list-style: none;
   margin-left: 5%;
+  color:skyblue;
 }
+
+
 .items{
 display: inline-flex;
 width:15%;
@@ -60,16 +125,61 @@ margin-right: 6%;
 font-size: 172%;
 font-family: monospace;
 margin-top: 2%;
+color: skyblue;
 }
-#findImg{
-  margin-left: 6%;
-}
+
 .items:hover{
   width:65%;
   height: 55%;
   margin-top: -28%;
   margin-bottom: 65%;
   padding-left: 11%;
+}
+
+@keyframes line {
+
+  0%{margin-left: 3%;width:10%;}
+
+  10%{margin-left: 13%;width:0%;}
+  16%{margin-left: 13%;width:15%;}
+
+  20%{margin-left: 23%;width:0%;}
+  26%{margin-left: 23%;width:15%;}
+
+  30%{margin-left: 33%;width:0%;}
+  36%{margin-left: 33%;width:15%;}
+
+  40%{margin-left: 43%;width:0%;}
+  46%{margin-left: 43%;width:15%;}
+
+  50%{margin-left: 53%;width:0%;}
+  56%{margin-left: 53%;width:15%;}
+
+  60%{margin-left: 63%;width:0%;}
+  66%{margin-left: 63%;width:15%;}
+
+  70%{margin-left: 73%;width:0%;}
+  76%{margin-left: 73%;width:15%;}
+
+  80%{margin-left: 83%;width:0%;}
+  86%{margin-left: 83%;width:15%;}
+
+  90%{margin-left: 90%;width:0%;}
+  96%{margin-left: 90%;width:15%;}
+
+  97%{margin-left: 3%;width:0%;}
+
+}
+.box{
+  width:10%;
+  height:10%;
+  border-bottom:  6px dotted skyblue;
+  margin-left: 3%;
+  margin-top: -5%;
+  animation-name: line;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
 }
 
 #TherearenoimagessinceitisaCommand-LineApp{

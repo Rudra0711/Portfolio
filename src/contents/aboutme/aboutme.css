@@ -1,16 +1,19 @@
 #body4{
-  background-color: white;
+  background-color: black;
   height:100%;
-  background: linear-gradient(to bottom,black,#006e6d,black,black);
+  /* background: linear-gradient(to bottom,#a7dcf1 -16%,black,black); */
 }
 .whole{
-  background-color: white;
-  width:200vh;
-  height:30vh;
-  margin-top: -15vh;
-  border-bottom: 0.8vh dashed black;
-  border-radius: 35%;
+  background-color: black;
+  width:160vh;
+  height:150vh;
+  margin-top: -73%;
+  margin-bottom: 8%;
+  margin-left: 8%;
+  border-radius: 12%;
+  border: 1vh dotted skyblue;
 }
+
 #firstH{
   margin-left: 52vh;
   margin-top: -24vh;
@@ -27,33 +30,50 @@
   font-weight: bold;
 }
 #about{
-  background: linear-gradient(to bottom,white 66%,white 1%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color:transparent;
   font-family: cursive;
-  margin-top: 15vh;
+  font-weight: 540;
+  margin-top: -2vh;
   width: 140vh;
   margin-left: 28vh;
-  color:black;
+  color:skyblue;
   padding: 1%;
   border-radius: 1%;
   font-size: 130%;
 }
+@keyframes picanimate {
+  0%{border-top: 0.7vh solid #a8dcf0; border-left: 0.5vh solid black; border-right: 0.5vh solid black; border-bottom: 0.5vh solid black; }
+  25%{border-top: 0.5vh solid black; border-left: 0.5vh solid black; border-right: 0.7vh solid #a8dcf0; border-bottom: 0.5vh solid black; }
+  50%{border-top: 0.5vh solid black; border-left: 0.5vh solid black; border-right: 0.5vh solid black; border-bottom: 0.7vh solid #a8dcf0; }
+  75%{border-top: 0.5vh solid black; border-left: 0.7vh solid #a8dcf0; border-right: 0.5vh solid black; border-bottom: 0.5vh solid black; }
+  100%{border-top: 0.7vh solid #a8dcf0; border-left: 0.5vh solid black; border-right: 0.5vh solid black; border-bottom: 0.5vh solid black; }
+
+}
 .picabt{
-  border-top: 0.8vh dashed black;
-  border-right: 0.8vh dashed black;
+  position: fixed;
+  border-top: 0.8vh solid #a8dcf0;
+  border-left: 0.4vh solid #a8dcf0;
+  border-right: 0.4vh solid black;
+  border-bottom: 0.6vh solid black;
   position:relative;
   border-radius:50%;
   width:14%;
   height:auto;
-  margin-left:14vh;
-  margin-top:18.2vh;
+  margin-left:4vh;
+  margin-top:10vh;
   margin-bottom: 0vh;
   object-fit: cover;
+  animation-name: picanimate;
+  animation-duration: 4s;
+  animation-play-state: running;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
 }
 @media only screen and (max-width:600px){
-  #body4 .whole{
+  #body4 {
     width:52vh;
+  }
+  .whole{
+    width:55vh;
   }
   .picabt{
     margin-top: 24vh;
@@ -68,6 +88,7 @@
     padding-right: 4%;
     margin-left: 4%;
     font-weight: 400;
+    font-family: sans-serif;
     /* padding-right: 4%; */
   }
 }

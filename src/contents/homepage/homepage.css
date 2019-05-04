@@ -1,12 +1,16 @@
 #body3{
-  background-color: #ffffff;
-  background: linear-gradient(to bottom,white 65%,white,#006e6d);
+  background-color: black;
+  /* background: linear-gradient(to bottom,white 65%,white,#006e6d); */
   width:100%;
-  height:100%;
+  height:125vh;
 }
-@keyframes name{
-  0% {color:white;}
-  100% {color: #b3ffff;}
+
+@keyframes mainPage{
+  0% {background-color:white;margin-left: -100%;margin-top: -250%;}
+
+  25% {background-color:black;margin-left: -50%;margin-top: -125%;}
+
+  100% {background-color: black;margin-left: 5%;margin-top: 1%;}
 }
 #name{
   position: absolute;
@@ -16,7 +20,7 @@
   font-size: 90%;
   font-weight: bold;
   margin-left: 5%;
-  margin-top: 0%;
+  margin-top: 2%;
   padding: 2%;
   padding-left: 6%;
   padding-right: 2.2%;
@@ -29,22 +33,17 @@
   animation-timing-function: ease;
   animation-iteration-count: 1;
 }
-@keyframes mainPage{
-  0% {background-color:white;margin-left: -100%;margin-top: -250%;}
 
-  25% {background-color:#5a3e36;margin-left: -50%;margin-top: -125%;}
-
-  100% {background-color: #006e6d;margin-left: 5%;margin-top: 0%;}
-}
 #panel{
   position: absolute;
-  height:120vh;
+  height:115vh;
   width:46vh;
-  box-shadow: 15px 18px 15px 10px darkgrey;
-  border-radius: 2%;
-  background-color: #006e6d;
+  box-shadow: 0px 2px 75px 25px skyblue ;
+  border-radius: 1%;
+  /* background-color: #006e6d; */
+  background-color: black;
   margin-left: 5%;
-  margin-top: 0%;
+  margin-top: 1%;
   z-index: 1;
   border: 1px solid black;
   animation-name : mainPage;
@@ -52,17 +51,21 @@
   animation-timing-function: ease;
   animation-iteration-count: 1;
 }
+@keyframes details{
+  0% {color:black;}
+  100% {color: skyblue;}
+}
 #details{
   font-size: 80%;
   width: 22%;
-  margin-top: -37%;
+  margin-top: -35%;
   margin-left: 7%;
   position: absolute;
   z-index: 10;
-  color:#b3ffff;
+  color:skyblue;
   font-family: inherit;
-  animation-name : name;
-  animation-duration: 6s;
+  animation-name : details;
+  animation-duration: 5s;
   animation-timing-function: ease;
   animation-iteration-count: 1;
 }
@@ -85,11 +88,15 @@
   font-size: 120%;
   margin-top: -30%;
   width: 45%;
-  margin-left: 29%;
-  color:black;
+  margin-left: 35%;
+  color:skyblue;
   padding: 6%;
 }
 .pic{
+  border-left: 1px solid skyblue;
+  border-top: 1px solid skyblue;
+  border-bottom: 8px solid skyblue;
+  border-right: 8px solid skyblue;
   border-radius:50%;
   margin-left:50%;
   margin-top:-22%;
@@ -99,26 +106,29 @@
   object-fit: cover;
 }
 .active{
-  color:black ;
+  color:skyblue ;
   font-weight: bold;
   text-decoration: none;
   padding-bottom: 5%;
 }
 .active:hover{
-  color:#006e6d;
 
 }
 #first:hover{
-  border: 6px solid #006e6d;
+  border: 7px solid skyblue;
   margin-left: 95%;
+  font-family: cursive;
+  font-weight: 100;
 }
 #second:hover{
-  border: 6px solid #006e6d;
+  border: 7px solid skyblue;
   margin-left: 95%;
+  font-family: cursive;
+  font-weight: 100;
 }
 #first{
-  border: 1px solid #006e6d;
-  border-bottom: 12px solid #006e6d;
+  border: 1px solid skyblue;
+  border-bottom: 12px solid skyblue;
   margin-top:0%;
   margin-left: 96%;
   width:2.6%;
@@ -128,8 +138,8 @@
 
 }
 #second{
-  border: 1px solid #006e6d;
-  border-bottom: 12px solid #006e6d;
+  border: 1px solid skyblue;
+  border-bottom: 12px solid skyblue;
   margin-top: -4.8%;
   margin-left: 96%;
   width:2.6%;
@@ -140,7 +150,7 @@
 
 @media only screen and (max-width: 600px) {
   #body3{
-    height:175vh;
+    height:190vh;
     width: 100%;
   }
   #name{

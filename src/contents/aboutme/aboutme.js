@@ -7,14 +7,14 @@ class AboutMe extends Component{
     return (
       <div id="body4">
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <div class="whole">
+
         <img class="picabt" src={img} alt="My pic"/>
             {
               // <h1 className="aboutHeader" id="firstH">  </h1>
             // <h1 className="aboutHeader" id="secondH"></h1>
           }
 
-        </div>
+
         <h3 id="about">
         Hello..,welcome here.:)<br/>
         I'm a young software developer who possesses knowledge in :
@@ -42,6 +42,7 @@ class AboutMe extends Component{
         <br/><br/>
         Besides programming, I've a strong affection for cricket , music, health and fitness and technology.
         </h3>
+        <div class="whole"></div>
       </div>
     );
   }

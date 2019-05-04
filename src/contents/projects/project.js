@@ -104,8 +104,8 @@ class Projects extends Component{
   return(
     <div id="body2">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <h1 title={str} id="projHeading">{str}</h1>
-    <h2 id="lang">-{LANG}</h2>
+    <h1 title={str} class="projHeading" id={str.replace(/ /g,'')}>{str}</h1>
+    <h2 class="lang" id={str.replace(/ /g,'').concat("_")}>-{LANG}</h2>
 
     <div>
     <h5 id="desc">{desc}</h5>
@@ -119,13 +119,14 @@ class Projects extends Component{
   {
     images.map((name) => (
 
-          <li key={name} class="items" id={name.replace(/ /g,'')}><h4 id="info">{name}</h4></li>
+          <li key={name} class="items" id={name.replace(/ /g,'')}><h4 id="infoli">{name}</h4></li>
 
     ))
   }
   </ol>
 
   </div>
+  <div class="box"></div>
       </div>
   );
   }

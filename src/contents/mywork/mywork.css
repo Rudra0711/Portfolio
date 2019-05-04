@@ -1,6 +1,6 @@
 #body1{
-  background-color: #262626;
-  background: linear-gradient(to top,white 5%,#262626);
+  background-color: black;
+  /* background: linear-gradient(to top,white 5%,#262626); */
   height:175vh;
   width:200vh;
   margin-top: -1vh;
@@ -8,7 +8,7 @@
 }
 
 #workHeader{
-  color:white;
+  color:#d2edf9;
   font-size: 275%;
   font-weight: bold;
   font-family: cursive;
@@ -16,12 +16,14 @@
   margin-top: 2vh;
 }
 .work{
-  background-color: #006e6d;
-  background: linear-gradient(to bottom,white,#006e6d);
+  background-color: black;
+  /* background: linear-gradient(to bottom,white,#006e6d); */
+  box-shadow: 5px 0px 35px 15px skyblue;
   width:40vh;
   height:50vh;
   float: left;
   margin: 4vh;
+  margin-right: 8vh;
 }
 @keyframes java {
     from {height: 0vh;}
@@ -58,6 +60,7 @@
   border-radius: 6%;
   padding: 0vh;
   width:25vh;
+  padding-left: 2vh;
   margin-left: 4vh;
   margin-top: -2vh;
   animation-name: web;
@@ -68,9 +71,11 @@
   to  {height: 50vh;}
 }
 #Nodejs{
+
   border-radius: 25%;
   padding: 2vh;
-  width:45vh;
+  padding-left: 4vh;
+  width:40vh;
   margin-top: 58vh;
   margin-left: -160vh;
   animation-name: nodejs;
@@ -83,8 +88,11 @@
 #React{
   border-radius: 50%;
   padding: 6vh;
-  width:50vh;
-  margin-top: 2vh;
+  width:45vh;
+  padding-left: 10vh;
+  margin-top: 6vh;
+  margin-left: 8vh;
+  margin-right: 2vh;
   animation-name: react;
   animation-duration: 2s;
 }
@@ -107,8 +115,10 @@
   to  {height: 50vh;}
 }
 #Python{
-  border-radius: 40%;
+  border-radius: 15%;
   padding: 2vh;
+  padding-left: 4vh;
+  padding-top: 3vh;
   width:25vh;
   margin-left:  18vh;
   animation-name: python;
@@ -116,16 +126,18 @@
 }
 .topic{
   font-size: 150%;
-  padding-left: 4vh;
+  padding-left: 2vh;
+  color:skyblue;
 }
 #links{
   text-decoration: none;
-  color:red;
+  color:#bce4f6;
 }
 #links:hover{
   text-decoration: underline;
-  color:black;
+  color:skyblue;
   font-weight: bold;
+  font-size: 120%;
 }
 @media only screen and (max-width:600px){
   #body1{
