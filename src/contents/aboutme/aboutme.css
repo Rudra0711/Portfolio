@@ -73,11 +73,12 @@
     width:60vh;
   }
   .whole{
-    border-radius: 8%;
+    border-radius: 2%;
     width:50vh;
     height:168vh;
-    margin-top:-170vh;
+    margin-top:-168vh;
     margin-left: 6%;
+    border: 1vh double skyblue;
   }
   .picabt{
     margin-top: 6vh;
