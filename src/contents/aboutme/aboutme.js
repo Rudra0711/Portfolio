@@ -5,8 +5,11 @@ import img from './pic.jpg';
 class AboutMe extends Component{
   render(){
     return (
-      <div id="body4">
+
+      <div>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <div id="body4">
 
         <img class="picabt" src={img} alt="My pic"/>
             {
@@ -43,6 +46,7 @@ class AboutMe extends Component{
         Besides programming, I've a strong affection for cricket , music, health and fitness and technology.
         </h3>
         <div class="whole"></div>
+      </div>
       </div>
     );
   }

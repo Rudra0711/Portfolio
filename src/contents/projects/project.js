@@ -102,8 +102,10 @@ class Projects extends Component{
   }
 
   return(
-    <div id="body2">
+    <div>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <div id="body2">
+
     <h1 title={str} class="projHeading" id={str.replace(/ /g,'')}>{str}</h1>
     <h2 class="lang" id={str.replace(/ /g,'').concat("_")}>-{LANG}</h2>
 
@@ -127,7 +129,8 @@ class Projects extends Component{
 
   </div>
   <div class="box"></div>
-      </div>
+  </div>
+  </div>
   );
   }
 }

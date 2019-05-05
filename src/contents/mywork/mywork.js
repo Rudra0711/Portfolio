@@ -31,10 +31,12 @@ class MyWork extends Component{
    //   </div>
    // ));
     return (
-
+      <div>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <div id="body1">
        <h1 id="workHeader">As a...</h1>
         {DATA}
+       </div>
        </div>
     );
   }
