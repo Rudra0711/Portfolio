@@ -352,7 +352,7 @@ color: skyblue;
   }
   #body2{
     width: 12vh;
-    height:140vh;
+    height:130vh;
     padding: 50%;
     background:black;
   }
@@ -364,68 +364,77 @@ color: skyblue;
   }
   #Notepad{
     margin-left: -145%;
-    margin-top: -170%;
-    width:220%;
+    margin-top: -150%;
+    padding-left: 18%;
+    width:200%;
+    font-size: 210%;
   }
   #Tic-tac-toeGame{
     margin-left: -190%;
-    font-size: 200%;
-    margin-top: -125%;
-    width: 320%;
+    font-size: 190%;
+    margin-top: -115%;
+    padding-left: 18%;
+    padding-top: 2%;
+    width: 340%;
   }
   #BloggingApp{
     margin-left: -180%;
-    margin-top: -170%;
-    font-size: 220%;
+    margin-top: -120%;
+    padding-left: 18%;
+    font-size: 190%;
     width: 290%;
   }
   #ExploreTheWorld{
     margin-left: -180%;
     margin-top: -90%;
+    padding-left: 22%;
+    padding-top: 2%;
     font-size: 180%;
     padding-left: 12%;
-    width: 310%;
+    width: 330%;
   }
   #WeatherApp{
     margin-left: -160%;
     margin-top: -90%;
     font-size: 180%;
-    padding-left: 12%;
-    width: 220%;
+    padding-left: 16%;
+    width: 250%;
   }
   #NewsPage{
     margin-top: -65%;
-    margin-left: -160%;
-    width:240%;
+    margin-left: -150%;
+    width:210%;
     padding-left: 16%;
-    font-size: 230%;
+    font-size: 190%;
   }
   #Clock{
     margin-top: -65%;
-    margin-left: -140%;
+    margin-left: -145%;
     width:200%;
-    padding-left: 24%;
-    font-size: 230%;
+    padding-left: 18%;
+    font-size: 190%;
   }
   #ChatApp{
     margin-top: -65%;
     margin-left: -150%;
-    width:200%;
-    padding-left: 24%;
-    font-size: 230%;
+    width:220%;
+    padding-left: 20%;
+    font-size: 190%;
   }
   #LocationFinderApp{
     margin-top: -65%;
     margin-left: -190%;
+    padding-top: 2%;
     width:360%;
     padding-left: 16%;
     font-size: 190%;
   }
   #NotesApp{
     margin-top: -65%;
-    margin-left: -170%;
+    margin-left: -168%;
+    padding-top: 1%;
     width:260%;
-    padding-left: 16%;
+    padding-left: 20%;
     font-size: 190%;
   }
   #MyPortfolio{
@@ -444,10 +453,10 @@ color: skyblue;
   }
   #BookScrapingApp{
     margin-top: -65%;
-    margin-left: -180%;
+    margin-left: -190%;
     width:340%;
     padding-left: 16%;
-    font-size: 190%;
+    font-size: 180%;
   }
 
 
@@ -458,107 +467,123 @@ color: skyblue;
     width: 150%;
   }
   #Notepad_{
-    margin-left: -10%;
-    margin-top: -28%;
+    margin-left: -44%;
+    margin-top: -32%;
     margin-bottom: 60%;
     padding-left: 50%;
-    width: 130%;
-    font-size: 190%;
+    padding-bottom: 6%;
+    width: 100%;
+    font-size: 170%;
   }
   #Tic-tac-toeGame_{
-    margin-top: -18%;
-    margin-left: -25%;
+    margin-top: -24%;
+    margin-left: 2%;
     padding-left: 80%;
+    padding-bottom: 5%;
     margin-bottom: 52%;
-    width: 110%;
-    font-size: 190%;
+    width: 100%;
+    font-size: 170%;
   }
   #BloggingApp_{
-    margin-left: -75%;
+    margin-left: -40%;
     margin-top: -22%;
-    font-size: 200%;
+    font-size: 170%;
     margin-bottom: 50%;
-    width: 180%;
+    padding-bottom: 2%;
+    width: 155%;
     padding-left: 50%;
   }
   #ExploreTheWorld_{
     margin-left: -34%;
-    margin-top: -20%;
+    margin-top: -22%;
     margin-bottom: 42%;
     font-size: 180%;
-    padding-left: 32%;
-    width: 160%;
-    font-size: 190%;
+    padding-left: 60%;
+    padding-bottom: 4%;
+    width: 150%;
+    font-size: 170%;
   }
   #WeatherApp_{
     margin-left: -60%;
     margin-top: -20%;
     margin-bottom: 42%;
     font-size: 180%;
-    padding-left: 25%;
-    width: 160%;
-    font-size: 190%;
+    padding-left: 50%;
+    padding-bottom: 6%;
+    width: 150%;
+    font-size: 170%;
   }
   #NewsPage_{
-    margin-left: -12%;
-    padding-left: 35%;
-    margin-bottom: 42%;
-    width: 120%;
-    font-size: 190%;
+    margin-left: -50%;
+    margin-top: -24%;
+    padding-left: 60%;
+    margin-bottom: 48%;
+    padding-bottom: 4%;
+    width: 100%;
+    font-size: 170%;
   }
   #Clock_{
-    margin-left: -52%;
+    margin-top: -34;
+    margin-left: -50%;
     padding-left: 50%;
     margin-bottom: 42%;
-    width: 120%;
-    font-size: 190%;
+    padding-bottom: 6%;
+    width: 100%;
+    font-size: 170%;
   }
   #ChatApp_{
-    margin-left: -62%;
+    margin-left: -54%;
     padding-left: 50%;
     margin-bottom: 42%;
-    width: 160%;
-    font-size: 190%;
+    margin-top: -22%;
+    padding-bottom: 8%;
+    width: 135%;
+    font-size: 165%;
   }
   #LocationFinderApp_{
-    margin-top: -24%;
-    margin-left: -22%;
-    padding-left: 50%;
+    margin-top: -22%;
+    margin-left: -16%;
+    padding-left: 70%;
     margin-bottom: 42%;
-    width: 160%;
-    font-size: 190%;
+    padding-bottom: 6%;
+    width: 135%;
+    font-size: 170%;
   }
   #NotesApp_{
-    margin-top: -24%;
-    margin-left: -42%;
+    margin-top: -22%;
+    margin-left: -44%;
     padding-left: 50%;
     margin-bottom: 42%;
-    width: 160%;
-    font-size: 190%;
+    padding-bottom: 6%;
+    width: 135%;
+    font-size: 170%;
   }
   #MyPortfolio_{
     margin-top: -24%;
-    margin-left: -42%;
+    margin-left: -32%;
     padding-left: 50%;
     margin-bottom: 42%;
-    width: 160%;
-    font-size: 190%;
+    padding-bottom: 6%;
+    width: 116%;
+    font-size: 170%;
   }
   #HangmanGame_{
     margin-top: -24%;
-    margin-left: -42%;
+    margin-left: -32%;
     padding-left: 50%;
-    margin-bottom: 42%;
-    width: 160%;
-    font-size: 190%;
+    margin-bottom: 48%;
+    padding-bottom: 6%;
+    width: 140%;
+    font-size: 170%;
   }
   #BookScrapingApp_{
-    margin-top: -24%;
-    margin-left: -24%;
+    margin-top: -20%;
+    margin-left: -2%;
     padding-left: 50%;
-    margin-bottom: 42%;
-    width: 160%;
-    font-size: 190%;
+    margin-bottom: 48%;
+    padding-bottom: 6%;
+    width: 140%;
+    font-size: 170%;
   }
 
   #desc{
@@ -577,10 +602,10 @@ color: skyblue;
     margin-bottom: 6%;
   }
   #gitLink{
-    margin-top: -28%;
-    width:300%;
-    margin-left: -16%;
-    font-size: 80%;
+    margin-top: -70%;
+    width:2%;
+    margin-left: -70%;
+    font-size: 90%;
     margin-bottom: 5%;
   }
   .items{

@@ -112,7 +112,7 @@ class Projects extends Component{
       </div>
         <div>
     <h3 id="github">GitHub : </h3>
-    <h6 id="gitLink"><a id="gitLink" href={gitLink}>{gitLink}</a></h6>
+    <h6 id="gitLink"><a id="gitLink" href={gitLink}><p>{gitLink}</p></a></h6>
     </div>
     <div id="listsDiv">
       <ol id="lists">

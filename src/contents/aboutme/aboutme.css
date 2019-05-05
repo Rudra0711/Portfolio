@@ -70,13 +70,13 @@
 }
 @media only screen and (max-width:600px){
   #body4 {
-    width:52vh;
+    width:54vh;
   }
   .whole{
     border-radius: 4%;
-    width:45vh;
-    height:145vh;
-    margin-top:-148vh;
+    width:46vh;
+    height:200vh;
+    margin-top:-200vh;
     margin-left: 4%;
   }
   .picabt{
@@ -90,9 +90,8 @@
     width: 80%;
     padding: 4vh;
     padding-left: 6%;
-    padding-right: 4%;
     margin-left: 4%;
-    font-size: 90%;
+    font-size: 110%;
     font-weight: 550;
     font-family: cursive;
     /* padding-right: 4%; */
