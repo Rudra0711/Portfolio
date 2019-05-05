@@ -70,14 +70,14 @@
 }
 @media only screen and (max-width:600px){
   #body4 {
-    width:54vh;
+    width:60vh;
   }
   .whole{
-    border-radius: 4%;
-    width:46vh;
-    height:200vh;
-    margin-top:-200vh;
-    margin-left: 4%;
+    border-radius: 8%;
+    width:50vh;
+    height:164vh;
+    margin-top:-166vh;
+    margin-left: 6%;
   }
   .picabt{
     margin-top: 6vh;
@@ -87,13 +87,13 @@
   }
   #about{
     margin-left: 1%;
-    width: 80%;
+    width: 75%;
     padding: 4vh;
     padding-left: 6%;
-    margin-left: 4%;
+    margin-left: 6%;
     font-size: 110%;
     font-weight: 550;
-    font-family: cursive;
+    font-family: inherit;
     /* padding-right: 4%; */
   }
 }
