@@ -235,9 +235,7 @@
   #name{
     margin-left: 4%;
     width:28%;
-    height:25%;
     font-size: 80%;
-    padding-top: 0%;
     padding-left: 7%;
   }
   #panel{
@@ -245,7 +243,7 @@
     height:160%;
   }
   #details{
-    margin-top: -72%;
+    margin-top: -66%;
     font-size: 60%;
   }
   #descHeading{
@@ -262,22 +260,23 @@
   }
   #knowmore{
     margin-left: 40%;
-    margin-top: -64%;
+    margin-top: -60%;
     font-size: 100%;
   }
   #first{
-    margin-left: 94%;
+    margin-left: 95%;
     height:34%;
-    width: 4%;
-    font-size: 140%;
+    width: 3%;
+    font-size: 116%;
     padding-top: 6%;
   }
   #second{
-    margin-left: 94%;
+    margin-left: 95%;
     height:34%;
-    width: 4%;
-    font-size: 92%;
+    width: 3%;
+    font-size: 78%;
     padding-top: 6%;
+    padding-right: 0.4%;
   }
   #first:hover{
     margin-left: 92%;
