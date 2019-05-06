@@ -12,7 +12,7 @@ class AboutMe extends Component{
       <div id="body4">
 
         <img class="picabt" src={img} alt="My pic"/>
-          
+
         <h3 id="about">
         Hello..,welcome here.:)<br/>
         I'm a young software developer who possesses knowledge in :
@@ -32,7 +32,7 @@ class AboutMe extends Component{
         </ul>
         I've made projects on them which you may find in the "My Work" section.<br/><br/>
         Talking about the work ethic, I'm someone for whom the work has always being on the top in the priority list.
-        Dedication, hard and managed work ethic, passion for excellence, self-motivation, working in pressure situations, being career and detail oriented,
+        Dedication, hard and managed work ethic, passion for excellence,self-discipline, self-motivation, working in pressure situations, being career and detail oriented,
         are some of the key qualities which defines my personality, along with possessing leadership and managerial skills,
         loving to work with a team as well.<br/><br/>
         I'm currently looking forward towards a career which would give an exposure to as well as challenge my skills, providing an environment

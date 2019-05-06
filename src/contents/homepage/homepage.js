@@ -19,10 +19,10 @@ class HomePage extends Component{
         <h2 ><NavLink class="active" to="/mywork">M<br/>Y<br/> W<br/>O<br/>R<br/>K</NavLink></h2>
         </div>
         <div id="details">
-          <h2 class="subDetails" id="descHeading">A Sophophilic!</h2>
+          <h2 class="subDetails" id="descHeading">A Polymath!</h2>
           <h2 class="subDetails" id="email">Email : rudrakshjhalani24@gmail.com</h2>
           <h2 class="subDetails" id="nationality">Nationality : Indian</h2>
-          <h2 class="subDetails" id="interests">Major Interests : </h2>
+          <h2 class="subDetails" id="interests">Major fields of knowledge : </h2>
           <ul class="subDetails" id="interestItems">
             <h4>Computer Programming</h4>
             <h4>Health & Fitness</h4>
