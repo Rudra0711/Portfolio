@@ -225,4 +225,65 @@
     border: 6px solid #006e6d;
     margin-left: 88%;
   }
+
+}
+
+@media only screen and (max-width: 650px) and (orientation: landscape) {
+  #body3{
+    height: 175vh;
+  }
+  #name{
+    margin-left: 4%;
+    width:28%;
+    height:25%;
+    font-size: 80%;
+    padding-top: 0%;
+    padding-left: 7%;
+  }
+  #panel{
+    width:35%;
+    height:160%;
+  }
+  #details{
+    margin-top: -72%;
+    font-size: 60%;
+  }
+  #descHeading{
+    width: 120%;
+    margin-left: 14%;
+  }
+  #email{
+    font-size: 148%;
+  }
+  .pic{
+    margin-left: 58%;
+    margin-top: -50%;
+    margin-bottom: 22%;
+  }
+  #knowmore{
+    margin-left: 40%;
+    margin-top: -64%;
+    font-size: 100%;
+  }
+  #first{
+    margin-left: 94%;
+    height:34%;
+    width: 4%;
+    font-size: 140%;
+    padding-top: 6%;
+  }
+  #second{
+    margin-left: 94%;
+    height:34%;
+    width: 4%;
+    font-size: 92%;
+    padding-top: 6%;
+  }
+  #first:hover{
+    margin-left: 92%;
+  }
+  #second:hover{
+    margin-left: 92%;
+  }
+
 }

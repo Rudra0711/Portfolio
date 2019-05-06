@@ -12,12 +12,7 @@ class AboutMe extends Component{
       <div id="body4">
 
         <img class="picabt" src={img} alt="My pic"/>
-            {
-              // <h1 className="aboutHeader" id="firstH">  </h1>
-            // <h1 className="aboutHeader" id="secondH"></h1>
-          }
-
-
+          
         <h3 id="about">
         Hello..,welcome here.:)<br/>
         I'm a young software developer who possesses knowledge in :

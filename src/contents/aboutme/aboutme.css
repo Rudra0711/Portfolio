@@ -102,3 +102,24 @@
     /* padding-right: 4%; */
   }
 }
+@media only screen and (max-width: 650px) and (orientation: landscape) {
+
+  .whole{
+    border-radius: 2%;
+    height: 290vh;
+    margin-left: 4%;
+    margin-top: -158%;
+    border: 1.4vh dotted skyblue;
+    border-left: 1vh solid skyblue;
+    border-bottom: 1vh solid skyblue;
+  }
+  .picabt{
+    margin-left: 0%;
+    width: 18%;
+  }
+  #about{
+    margin-top: 2%;
+    margin-left: 8%;
+    font-size: 110%;
+  }
+}
