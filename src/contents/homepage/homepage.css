@@ -230,20 +230,20 @@
 
 @media only screen and (max-width: 650px) and (orientation: landscape) {
   #body3{
-    height: 175vh;
+    height: 210vh;
   }
   #name{
     margin-left: 4%;
-    width:28%;
+    width:25%;
     font-size: 80%;
     padding-left: 7%;
   }
   #panel{
     width:35%;
-    height:160%;
+    height:180%;
   }
   #details{
-    margin-top: -66%;
+    margin-top: -74%;
     font-size: 60%;
   }
   #descHeading{
@@ -256,11 +256,11 @@
   .pic{
     margin-left: 58%;
     margin-top: -50%;
-    margin-bottom: 22%;
+    margin-bottom: 26%;
   }
   #knowmore{
     margin-left: 40%;
-    margin-top: -60%;
+    margin-top: -68%;
     font-size: 100%;
   }
   #first{
