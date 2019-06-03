@@ -2,7 +2,7 @@
   background-color: black;
   /* background: linear-gradient(to bottom,white 65%,white,#006e6d); */
   width:100%;
-  height:125vh;
+  height:150vh;
 }
 
 @keyframes mainPage{
@@ -36,7 +36,7 @@
 
 #panel{
   position: absolute;
-  height:115vh;
+  height:135vh;
   width:46vh;
   box-shadow: 0px 2px 75px 25px skyblue ;
   border-radius: 1%;

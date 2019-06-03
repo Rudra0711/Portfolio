@@ -40,6 +40,13 @@ class Projects extends Component{
         gitLink=`https://github.com/Rudra0711/Tic_Tac_Toe`;
         images=[`Welcome`,`Players credentials`,`The Grid`,`The Game`,`Result`];
         break;
+    case 'Juke A Nator':
+        desc=`A jukebox application in which you can play some pre-loaded songs as well can choose songs from your system.
+
+              Play them in a queue or one-by-one, choice is yours.. :)`;
+        gitLink=`https://github.com/Rudra0711/JukeANator-Jukebox-`;
+        images=[`Home Section`,`Admin Section`,`Search Section`,`Popular Section`];
+        break;
     case 'Blogging App':
         desc=`A  blog  posting  app  on  which  after  signing  up , you  can  post  your  own  content ,
          as  well  as  view  the  posts  of  others  as  well ,  with  the  like  and  comment  features  too.`;

@@ -22,7 +22,6 @@
   margin-left: 35%;
   width: 18%;
 }
-
 #NewsPage{
   margin-left: 32%;
   width:24%;
@@ -37,6 +36,9 @@
 }
 #LocationFinderApp{
   margin-left: 30%;
+}
+#JukeANator{
+  width: 24%;
 }
 .lang{
   border-bottom: 2px solid skyblue;
@@ -58,6 +60,11 @@
 #Tic-tac-toeGame_{
   margin-left: 48%;
   padding-left: 5%;
+  width: 7%;
+}
+#JukeANator_{
+  margin-left: 48%;
+  padding-left: 4%;
   width: 7%;
 }
 #NewsPage_{
@@ -229,6 +236,26 @@ color: skyblue;
 }
 #Result:hover{
    content: url(./java/tictactoe/won.png);
+}
+
+/* JUKEANATOR IMAGES */
+#HomeSection:hover{
+  content: url(./java/jukeanator/homeScreen.png);
+}
+#AdminSection:hover{
+  content: url(./java/jukeanator/adminSection.png);
+  margin-top: -38%;
+  margin-bottom: 200%;
+}
+#SearchSection:hover{
+  content: url(./java/jukeanator/searchSection.png);
+  margin-top: -38%;
+  margin-bottom: 200%;
+}
+#PopularSection:hover{
+  content: url(./java/jukeanator/popularSection.png);
+  margin-top: -38%;
+  margin-bottom: 200%;
 }
 
 /* ANDROID IMAGES */
